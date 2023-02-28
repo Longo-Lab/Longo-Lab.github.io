@@ -25,11 +25,12 @@ permalink: /
 </nav>
 
 <!-- Masthead-->
-<header class="masthead"> <!--https://unsplash.com/photos/y8diuDh3M0s-->
+<header class="masthead">
     <div class="container">
         <div class="masthead-subheading">Stanford Medicine</div>
         <div class="masthead-heading text-uppercase">Longo Lab Informatics</div>
         <a class="btn btn-primary btn-xl text-uppercase" href="/docs/overview.html">View the docs</a>
+        <p>Photo by <a href="https://unsplash.com/photos/y8diuDh3M0s">Zetong Li</a> on <a href="https://unsplash.com/">Unsplash</a></p>
     </div>
 </header>
 
