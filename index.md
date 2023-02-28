@@ -1,30 +1,201 @@
 ---
+layout: agency
 title: Home
-layout: home
+nav_exclude: true
+description: 'Longo Lab Informatics'
+permalink: /
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="#page-top"><img src="assets/images/longo-logo.png" alt="..." /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars ms-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                <li class="nav-item"><a class="nav-link" href="#models">Models</a></li>
+                <li class="nav-item"><a class="nav-link" href="#compounds">Compounds</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+<!-- Masthead-->
+<header class="masthead"> <!--https://unsplash.com/photos/y8diuDh3M0s-->
+    <div class="container">
+        <div class="masthead-subheading">Stanford Medicine</div>
+        <div class="masthead-heading text-uppercase">Longo Lab Informatics</div>
+        <a class="btn btn-primary btn-xl text-uppercase" href="/docs/overview.html">View the docs</a>
+    </div>
+</header>
 
-More specifically, the created site:
+<!-- Models-->
+<section class="page-section" id="models">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Mice models</h2>
+            <h3 class="section-subheading text-muted">There are various Alzheimer's Disease mice models available. See <a href="https://med.stanford.edu/sbfnl/services/dm/dm5.html">here</a> for more information.</h3>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-paw fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3">PS19</h4>
+                <p class="text-muted">PS19 (B6;C3-Tg(Prnp-MAPT*P301S)PS19Vle/J) Transgenic (Tg) mice express the P301S mutant form of human tau and develop progressive accumulation of neurofibrillary tangles with age.  Thus, the strain is commonly used as a model of tauopathy, such as Alzheimer's Disease.</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-paw fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3">T41B</h4>
+                <p class="text-muted">The line 41 of mThy1-hAPPLond/swe mouse (hAPP751+) is a transgenic mouse model of AD expressing high level of human APP751 cDNA containing the London (V717I) and Swedish (K670M/N671L) mutations under the regulatory control of the murine (m)Thy-1 gene.</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-paw fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3">5XFAD</h4>
+                <p class="text-muted">Coming soon...</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+<!-- Compounds-->
+<section class="page-section bg-light" id="compounds">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Drug compounds</h2>
+            <h3 class="section-subheading text-muted">There are various drug compounds used by the Longo Lab.</h3>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-6">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-secondary"></i>
+                    <i class="fas fa-syringe fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3">C31</h4>
+                <p class="text-muted">C31 targets p75 neurotrophin receptor.</p>
+            </div>
+            <div class="col-md-6">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-secondary"></i>
+                    <i class="fas fa-syringe fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3">BD10-2</h4>
+                <p class="text-muted">BD10-2 targets TRK neurotrophin receptors.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+<!--Projects-->
+<section class="page-section" id="projects">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Projects</h2>
+            <h3 class="section-subheading text-muted">Below is a list of past and ongoing projects with sequencing data. See <a href="/docs/overview.html">here</a> for more information.</h3>
+        </div>
+        <ul class="timeline">
+            <li>
+                <div class="timeline-image"><i class="fas fa-4x fa-dna fa-stack-1x fa-inverse"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4><a href="/docs/PS19_C31_stim.html">PS19 + C31 + stim</a></h4>
+                        <h5>Bulk sequencing</h5>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">9 month old PS19 mice were treated with C31 and long-term potentiation (LTP) stimulation. Hippocampal tissue was collected 24 hours after last dose and bulk sequencing was performed.</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><i class="fas fa-4x fa-dna fa-stack-1x fa-inverse"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4><a href="/docs/T41B_BD10-2_stim.html">T41B + BD10-2 + stim</a></h4>
+                        <h5>Bulk sequencing</h5>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">16 month old T41B mice were treated with BD10-2 and long-term potentiation (LTP) stimulation. Hippocampal tissue was collected 24 hours after last dose and bulk sequencing was performed.</p></div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image"><i class="fas fa-4x fa-dna fa-stack-1x fa-inverse"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4><a href="/docs/PS19_C31.html">PS19 + C31</a></h4>
+                        <h5>Bulk sequencing</h5>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">9 month old PS19 mice were treated with C31. Hippocampal tissue was collected 1 hour after last dose and bulk sequencing was performed.</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><i class="fas fa-4x fa-dna fa-stack-1x fa-inverse"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4><a href="/docs/T41B_BD10-2.html">T41B + BD10-2</a></h4>
+                        <h5>Bulk sequencing</h5>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">16 month old T41B mice were treated with BD10-2. Hippocampal tissue was collected 1 hour after last dose and bulk sequencing was performed.</p></div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image"><i class="fas fa-4x fa-dna fa-stack-1x fa-inverse"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4><a href="/docs/T41B_C31_aged.html">T41B + C31 aged</a></h4>
+                        <h5>Bulk sequencing</h5>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">4, 12, and 23 month old T41B mice were treated with C31. Hippocampal tissue was collected 1 hour after last dose and bulk sequencing was performed.</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><i class="fas fa-4x fa-dna fa-stack-1x fa-inverse"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4><a href="/docs/PS19_C31_snRNAseq.html">PS19 + C31 snRNAseq</a></h4>
+                        <h5>Single-cell sequencing</h5>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">9 month old PS19 mice were treated with C31. Cortical tissue was collected 1 hour after last dose and single-cell sequencing was performed.</p></div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image"><i class="fas fa-4x fa-dna fa-stack-1x fa-inverse"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4><a href="/docs/T41B_C31_snRNAseq.html">T41B + C31 snRNAseq</a></h4>
+                        <h5>Single-cell sequencing</h5>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">12 month old T41B mice were treated with C31. Cortical tissue was collected 1 hour after last dose and single-cell sequencing was performed.</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image">
+                    <h4>. . .</h4>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-To get started with creating a site, just click "[use this template]"!
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+<!-- Footer-->
+<footer class="footer py-4 bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 text-lg-start">Copyright &copy; Longo Lab 2023</div>
+            <div class="col-lg-4 my-3 my-lg-0">
+                <a class="btn btn-dark btn-social mx-2" href="https://github.com/Longo-Lab"><i class="fab fa-github"></i></a>
+                <a class="btn btn-dark btn-social mx-2" href="https://med.stanford.edu/longo-lab.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+                <a class="link-dark text-decoration-none" href="https://github.com/y7kim/agency-jekyll-theme">HTML template by y7kim</a>
+            </div>
+        </div>
+    </div>
+</footer>

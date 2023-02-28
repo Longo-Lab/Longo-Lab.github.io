@@ -1,0 +1,95 @@
+/* Overriding agency.css */
+
+:root {
+  --stanford-100: #e50808;
+  --stanford-200: #b1040e;
+  --stanford-300: #820000;
+}
+
+.page-section h2.section-heading {
+  font-size: 2.5rem !important;
+}
+
+.page-section h3.section-subheading {
+  font-size: 1rem !important;
+}
+
+h4 {
+  font-size: calc(1.275rem + 0.3vw) !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+}
+
+h5 {
+  font-style: italic;
+}
+
+a:not([class]),
+a:not([class]):hover {
+  color: var(--stanford-200);
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--stanford-100) !important;
+}
+
+#mainNav {
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+}
+
+.navbar-brand {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+#mainNav .navbar-brand img {
+  height: 2.75rem !important;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important;
+  }
+    
+  #mainNav.navbar-shrink {
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+  }
+  
+  #mainNav .navbar-brand img {
+    height: 3rem !important;
+  }
+  
+  #mainNav.navbar-shrink .navbar-brand img {
+    height: 2.75rem !important;
+  }
+}
+
+.masthead {
+  filter: saturate(0.5);
+}
+
+.masthead-heading {
+  text-shadow: 0.1em 0.1em 0.2em grey;
+}
+
+svg.text-primary {
+  color: var(--stanford-200) !important;
+}
+
+svg.text-secondary {
+  color: var(--stanford-300) !important;
+}
+
+.timeline > li .timeline-image {
+  background-color: var(--stanford-100);
+}
+
+.timeline > li .timeline-image h4 {
+  font-size: 50px !important;
+  color: white;
+  margin-top: 30%;
+}

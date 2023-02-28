@@ -1,11 +1,22 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
+logo: 'assets/images/longo-logo.png'
+title: 'Longo Lab'
 
 url: https://longo-lab.github.io
 
 # Color scheme (_sass/color_schemes)
 color_scheme: stanford
 
+# Aux links
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  'Longo Lab':
+    - 'https://med.stanford.edu/longo-lab.html'
+aux_links_new_tab: true
+
+# Callouts
+callouts:
+  info:
+    title: Metadata
+    color: stanford-green
+    opacity: 0.05
+
