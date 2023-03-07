@@ -1,17 +1,18 @@
 ---
 layout: default
-title: PS19 + C31 snRNAseq
+title: T41B + C31 snRNAseq
+parent: Projects
 nav_order: 7
 ---
 
-# PS19 + C31 snRNAseq
+# T41B + C31 snRNAseq
 {: .no_toc }
 
-[View on GitHub](https://github.com/Longo-Lab/PS19_C31_snRNAseq){: .btn .btn-primary }
+[View on GitHub](#){: .btn .btn-primary .disabled }
 
 {: .info }
-> - **Model**: PS19
-> - **Age**: 9 month
+> - **Model**: T41B
+> - **Age**: 12 month
 > - **Drug**: C31
 > - **Tissue**: Cortex
 > - **Time since last dose**: 1h

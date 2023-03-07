@@ -1,10 +1,13 @@
 ---
 layout: default
-title: Project overview
+title: Projects
 nav_order: 1
+has_children: true
+has_toc: false
+permalink: /docs/projects
 ---
 
-# Project overview
+# Projects
 
 Below is a list of projects containing RNA-seq data.
 

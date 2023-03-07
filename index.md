@@ -29,7 +29,7 @@ permalink: /
     <div class="container">
         <div class="masthead-subheading">Stanford Medicine</div>
         <div class="masthead-heading text-uppercase">Longo Lab Informatics</div>
-        <a class="btn btn-primary btn-xl text-uppercase" href="/docs/overview.html">View the docs</a>
+        <a class="btn btn-primary btn-xl text-uppercase" href="/docs/projects.html">View the docs</a>
         <p>Photo by <a href="https://unsplash.com/photos/y8diuDh3M0s">Zetong Li</a> on <a href="https://unsplash.com/">Unsplash</a></p>
     </div>
 </header>
@@ -103,14 +103,14 @@ permalink: /
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Projects</h2>
-            <h3 class="section-subheading text-muted">Below is a list of past and ongoing projects with sequencing data. See <a href="/docs/overview.html">here</a> for more information.</h3>
+            <h3 class="section-subheading text-muted">Below is a list of past and ongoing projects with sequencing data. See <a href="/docs/projects.html">here</a> for more information.</h3>
         </div>
         <ul class="timeline">
             <li>
                 <div class="timeline-image"><i class="fas fa-4x fa-dna fa-stack-1x fa-inverse"></i></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4><a href="/docs/PS19_C31_stim.html">PS19 + C31 + stim</a></h4>
+                        <h4><a href="/docs/projects/PS19_C31_stim.html">PS19 + C31 + stim</a></h4>
                         <h5>Bulk sequencing</h5>
                     </div>
                     <div class="timeline-body"><p class="text-muted">9 month old PS19 mice were treated with C31 and long-term potentiation (LTP) stimulation. Hippocampal tissue was collected 24 hours after last dose and bulk sequencing was performed.</p></div>
@@ -120,7 +120,7 @@ permalink: /
                 <div class="timeline-image"><i class="fas fa-4x fa-dna fa-stack-1x fa-inverse"></i></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4><a href="/docs/T41B_BD10-2_stim.html">T41B + BD10-2 + stim</a></h4>
+                        <h4><a href="/docs/projects/T41B_BD10-2_stim.html">T41B + BD10-2 + stim</a></h4>
                         <h5>Bulk sequencing</h5>
                     </div>
                     <div class="timeline-body"><p class="text-muted">16 month old T41B mice were treated with BD10-2 and long-term potentiation (LTP) stimulation. Hippocampal tissue was collected 24 hours after last dose and bulk sequencing was performed.</p></div>
@@ -130,7 +130,7 @@ permalink: /
                 <div class="timeline-image"><i class="fas fa-4x fa-dna fa-stack-1x fa-inverse"></i></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4><a href="/docs/PS19_C31.html">PS19 + C31</a></h4>
+                        <h4><a href="/docs/projects/PS19_C31.html">PS19 + C31</a></h4>
                         <h5>Bulk sequencing</h5>
                     </div>
                     <div class="timeline-body"><p class="text-muted">9 month old PS19 mice were treated with C31. Hippocampal tissue was collected 1 hour after last dose and bulk sequencing was performed.</p></div>
@@ -140,7 +140,7 @@ permalink: /
                 <div class="timeline-image"><i class="fas fa-4x fa-dna fa-stack-1x fa-inverse"></i></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4><a href="/docs/T41B_BD10-2.html">T41B + BD10-2</a></h4>
+                        <h4><a href="/docs/projects/T41B_BD10-2.html">T41B + BD10-2</a></h4>
                         <h5>Bulk sequencing</h5>
                     </div>
                     <div class="timeline-body"><p class="text-muted">16 month old T41B mice were treated with BD10-2. Hippocampal tissue was collected 1 hour after last dose and bulk sequencing was performed.</p></div>
@@ -150,7 +150,7 @@ permalink: /
                 <div class="timeline-image"><i class="fas fa-4x fa-dna fa-stack-1x fa-inverse"></i></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4><a href="/docs/T41B_C31_aged.html">T41B + C31 aged</a></h4>
+                        <h4><a href="/docs/projects/T41B_C31_aged.html">T41B + C31 aged</a></h4>
                         <h5>Bulk sequencing</h5>
                     </div>
                     <div class="timeline-body"><p class="text-muted">4, 12, and 23 month old T41B mice were treated with C31. Hippocampal tissue was collected 1 hour after last dose and bulk sequencing was performed.</p></div>
@@ -160,7 +160,7 @@ permalink: /
                 <div class="timeline-image"><i class="fas fa-4x fa-dna fa-stack-1x fa-inverse"></i></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4><a href="/docs/PS19_C31_snRNAseq.html">PS19 + C31 snRNAseq</a></h4>
+                        <h4><a href="/docs/projects/PS19_C31_snRNAseq.html">PS19 + C31 snRNAseq</a></h4>
                         <h5>Single-cell sequencing</h5>
                     </div>
                     <div class="timeline-body"><p class="text-muted">9 month old PS19 mice were treated with C31. Cortical tissue was collected 1 hour after last dose and single-cell sequencing was performed.</p></div>
@@ -170,7 +170,7 @@ permalink: /
                 <div class="timeline-image"><i class="fas fa-4x fa-dna fa-stack-1x fa-inverse"></i></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4><a href="/docs/T41B_C31_snRNAseq.html">T41B + C31 snRNAseq</a></h4>
+                        <h4><a href="/docs/projects/T41B_C31_snRNAseq.html">T41B + C31 snRNAseq</a></h4>
                         <h5>Single-cell sequencing</h5>
                     </div>
                     <div class="timeline-body"><p class="text-muted">12 month old T41B mice were treated with C31. Cortical tissue was collected 1 hour after last dose and single-cell sequencing was performed.</p></div>
