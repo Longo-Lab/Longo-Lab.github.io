@@ -177,9 +177,7 @@ permalink: /
                 </div>
             </li>
             <li class="timeline-inverted">
-                <div class="timeline-image">
-                    <h4>. . .</h4>
-                </div>
+                <div class="timeline-image"><i class="fas fa-4x fa-ellipsis fa-stack-1x fa-inverse"></i></div>
             </li>
         </ul>
     </div>

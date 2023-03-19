@@ -110,8 +110,6 @@ svg.text-secondary {
   background-color: var(--stanford-red-100);
 }
 
-.timeline > li .timeline-image h4 {
-  font-size: 50px !important;
-  color: white;
-  margin-top: 30%;
+.timeline svg {
+  width: 50% !important;
 }

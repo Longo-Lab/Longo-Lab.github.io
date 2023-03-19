@@ -20,3 +20,7 @@ Below is a list of projects containing RNA-seq data.
 | T41B | 4m, 12m, 23m | C31 |  | Hippocampal | 1h | Bulk | T41B_C31_aged | [T41B_C31_aged](https://github.com/Longo-Lab/T41B_C31_aged) |
 | PS19 | 9m | C31 |  | Cortex | 1h | Single-cell | Tau-PS19_C31_cortex_snRNAseq | [PS19_C31_snRNAseq](https://github.com/Longo-Lab/PS19_C31_snRNAseq) |
 | T41B | 12m | C31 |  | Cortex  | 1h | Single-cell |  |  |
+
+<div class="img-frame">
+  <img src="/assets/images/geno-drug.png" />
+</div>

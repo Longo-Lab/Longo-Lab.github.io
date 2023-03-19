@@ -9,6 +9,8 @@ nav_order: 6
 {: .no_toc }
 
 [View on GitHub](https://github.com/Longo-Lab/PS19_C31_snRNAseq){: .btn .btn-primary }
+[DE dashboard](https://longo-stanford.shinyapps.io/PS19_C31_snRNAseq/){: .btn .btn-secondary }
+[Gene-level dashboard](https://flongo.shinyapps.io/p75_c31/){: .btn .btn-secondary }
 
 {: .info }
 > - **Model**: PS19
@@ -26,8 +28,18 @@ nav_order: 6
 
 ---
 
+## Publications
+
+[![](/assets/images/graphic.jpg)](https://thenewstack.io/7-best-practices-for-data-visualization/)
+{: .pub-img }
+
+**Author Last name**, First initial. Middle initial. (Year Published). Title of article. _Title of Periodical_, Volume(Issue), page range. [https://doi.org/xxxx](https://www.citationmachine.net/apa/cite-a-journal) or URL
+{: .pub-text }
+
 ## Methods
 
-## Results
+```r
+library(tidyverse)
 
-## Publications
+print('Hello, World!')
+```
