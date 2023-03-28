@@ -10,7 +10,6 @@ nav_order: 6
 
 [View on GitHub](https://github.com/Longo-Lab/PS19_C31_snRNAseq){: .btn .btn-primary }
 [DE dashboard](https://longo-stanford.shinyapps.io/PS19_C31_snRNAseq/){: .btn .btn-secondary }
-[Gene-level dashboard](https://flongo.shinyapps.io/p75_c31/){: .btn .btn-secondary }
 
 {: .info }
 > - **Model**: PS19
