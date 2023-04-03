@@ -29,8 +29,6 @@ nav_order: 1
 
 ---
 
-## Methods
-
-## Results
-
 ## Publications
+
+## Methods

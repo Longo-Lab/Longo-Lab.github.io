@@ -9,6 +9,7 @@ nav_order: 2
 {: .no_toc }
 
 [View on GitHub](https://github.com/Longo-Lab/T41B_BD10-2_stim){: .btn .btn-primary }
+[DE dashboard](https://longo-stanford.shinyapps.io/T41B_BD10-2_stim/){: .btn .btn-secondary }
 
 {: .info }
 > - **Model**: T41B
@@ -27,8 +28,6 @@ nav_order: 2
 
 ---
 
-## Methods
-
-## Results
-
 ## Publications
+
+## Methods
