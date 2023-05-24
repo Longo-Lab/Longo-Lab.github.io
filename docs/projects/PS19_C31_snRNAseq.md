@@ -30,7 +30,7 @@ nav_order: 6
 
 ## Publications
 
-[![](/assets/images/graphic.jpg)](https://thenewstack.io/7-best-practices-for-data-visualization/)
+[![](/assets/images/coming-soon.jpg)](https://pixabay.com/photos/coming-soon-chalk-board-blackboard-2550190/)
 {: .pub-img }
 
 **Author Last name**, First initial. Middle initial. (Year Published). Title of article. _Title of Periodical_, Volume(Issue), page range. [https://doi.org/xxxx](https://www.citationmachine.net/apa/cite-a-journal) or URL
