@@ -9,6 +9,7 @@ nav_order: 7
 {: .no_toc }
 
 [View on GitHub](#){: .btn .btn-primary .disabled }
+[DE dashboard](#){: .btn .btn-secondary .disabled }
 
 {: .info }
 > - **Model**: T41B
@@ -26,8 +27,6 @@ nav_order: 7
 
 ---
 
-## Methods
-
-## Results
-
 ## Publications
+
+## Methods
