@@ -20,3 +20,8 @@ callouts:
     color: stanford-green
     opacity: 0.05
 
+# Google Analytics Tracking (optional)
+# Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
+ga_tracking: G-QXZQ8YQ4T1
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
+
