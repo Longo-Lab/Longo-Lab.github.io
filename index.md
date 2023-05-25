@@ -78,7 +78,7 @@ permalink: /
             <h3 class="section-subheading text-muted">There are various drug compounds used by the Longo Lab.</h3>
         </div>
         <div class="row text-center">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <span class="fa-stack fa-4x">
                     <i class="fas fa-circle fa-stack-2x text-secondary"></i>
                     <i class="fas fa-syringe fa-stack-1x fa-inverse"></i>
@@ -86,7 +86,7 @@ permalink: /
                 <h4 class="my-3">LM11A-C31 (C31)</h4>
                 <p class="text-muted">C31 targets p75 neurotrophin receptor.</p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <span class="fa-stack fa-4x">
                     <i class="fas fa-circle fa-stack-2x text-secondary"></i>
                     <i class="fas fa-syringe fa-stack-1x fa-inverse"></i>
@@ -94,7 +94,7 @@ permalink: /
                 <h4 class="my-3">PTX-BD10-2 (BD10-2)</h4>
                 <p class="text-muted">BD10-2 targets TRK neurotrophin receptors.</p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <span class="fa-stack fa-4x">
                     <i class="fas fa-circle fa-stack-2x text-secondary"></i>
                     <i class="fas fa-syringe fa-stack-1x fa-inverse"></i>
