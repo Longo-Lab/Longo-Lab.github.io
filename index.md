@@ -29,7 +29,7 @@ permalink: /
     <div class="container">
         <div class="masthead-subheading">Stanford Medicine</div>
         <div class="masthead-heading text-uppercase">Longo Lab Informatics</div>
-        <a class="btn btn-primary btn-xl text-uppercase" href="/docs/projects.html">View the docs</a>
+        <a class="btn btn-primary btn-xl text-uppercase" href="/docs/docs.html">View the docs</a>
         <p>Photo by <a href="https://unsplash.com/photos/y8diuDh3M0s">Zetong Li</a> on <a href="https://unsplash.com/">Unsplash</a></p>
     </div>
 </header>
@@ -39,7 +39,7 @@ permalink: /
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Mice models</h2>
-            <h3 class="section-subheading text-muted">There are various Alzheimer's Disease mice models available. See <a href="https://med.stanford.edu/sbfnl/services/dm/dm5.html">here</a> for more information.</h3>
+            <h3 class="section-subheading text-muted">Several Alzheimer's Disease mouse models in our projects. See <a href="https://med.stanford.edu/sbfnl/services/dm/dm5.html">here</a> for more information.</h3>
         </div>
         <div class="row text-center">
             <div class="col-md-4">
@@ -75,7 +75,7 @@ permalink: /
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Drug compounds</h2>
-            <h3 class="section-subheading text-muted">There are various drug compounds used by the Longo Lab.</h3>
+            <h3 class="section-subheading text-muted">Therapeutic compounds being developed by the Longo Lab.</h3>
         </div>
         <div class="row text-center">
             <div class="col-md-4">
@@ -100,7 +100,7 @@ permalink: /
                     <i class="fas fa-syringe fa-stack-1x fa-inverse"></i>
                 </span>
                 <h4 class="my-3">PTX-BD10-3 (BD10-3)</h4>
-                <p class="text-muted">BD10-2 targets TRK neurotrophin receptors.</p>
+                <p class="text-muted">BD10-3 targets TRK neurotrophin receptors.</p>
             </div>
         </div>
     </div>
