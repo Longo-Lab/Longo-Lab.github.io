@@ -15,6 +15,7 @@ Hello, and welcome to the informatics site for the Longo Lab! Computational docu
 This site is primarily focused on code documentation. Please check out the [Official Longo Lab Website](https://med.stanford.edu/longo-lab.html) for general information about the lab and publications.
 
 ## Site Layout
+
 | Section | Audience | Description |
 |---|---|---|
 | [Lab Policies](/docs/lab_policies) | All | General information about informatics|
@@ -28,6 +29,6 @@ var part1 = "rrbutler";
 var part2 = Math.pow(2,6);
 var part3 = "stanford.edu";
 var part4 = part1 + String.fromCharCode(part2) + part3;
-document.write("If you have website questions or suggestions, please contact:
-   <href=" + "mai" + "lto" + ":" + part4 + ">" + "Robert " + "Butler" + "</a>.");
+document.write("If you have website questions or suggestions, please contact: 
+   <a href=" + "mai" + "lto" + ":" + part4 + ">" + "Robert " + "Butler" + "</a>.");
 </script>
