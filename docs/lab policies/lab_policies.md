@@ -30,7 +30,7 @@ Importantly if you are going to be using High Risk data in your project, both yo
 
 Ultimately, all raw data will be deposited in the appropriate repository during publication, and code for generating data will be backed up and made available as described below. Importantly, this all happens through SCG, so...put your project on SCG.
 
-{: .Metadata-title }
+{: .info-title }
 > Project naming
 > 
 > A you can see in the project section, a certain amount of information is automatically connected between SCG and our other management tools. In order to keep projects straight, it is essential to know where your project goes and what it is called. Every SCG user has a `$HOME` folder. If you are demo-ing something, that is where you can try things out. The Longo Lab itself has a Lab folder, and in here, all data should be organized by project. The easiest way to track data is by `model_compound_experiment` nomenclature. Use ALL CAPS for the mouse model and compound and make sure to always use underscores `_` instead of spaces. When creating a new project folder, be sure to check first if you are unsure, because it is much harder to change that project folder name than anything else about the project.

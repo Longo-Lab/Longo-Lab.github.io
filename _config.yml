@@ -19,10 +19,7 @@ callouts:
     title: Metadata
     color: stanford-green
     opacity: 0.05
-
-callouts:
-  info:
-    title: note
+  note:
     color: stanford-red
     opacity: 0.05
 
