@@ -33,7 +33,9 @@ Ultimately, all raw data will be deposited in the appropriate repository during 
 {: .info-title }
 > Project naming
 > 
-> A you can see in the project section, a certain amount of information is automatically connected between SCG and our other management tools. In order to keep projects straight, it is essential to know where your project goes and what it is called. Every SCG user has a `$HOME` folder. If you are demo-ing something, that is where you can try things out. The Longo Lab itself has a Lab folder, and in here, all data should be organized by project. The easiest way to track data is by `model_compound_experiment` nomenclature. Use ALL CAPS for the mouse model and compound and make sure to always use underscores `_` instead of spaces. When creating a new project folder, be sure to check first if you are unsure, because it is much harder to change that project folder name than anything else about the project.
+> The easiest way to track data is by `model_compound_experiment` nomenclature. Use ALL CAPS for the mouse model and compound and make sure to always use underscores `_` instead of spaces. When creating a new project folder, be sure to check first if you are unsure, because it is much harder to change that project folder name than anything else about the project.
+
+As you can see in the [projects](/docs/projects) section, a certain amount of information is automatically connected between SCG and our other management tools. In order to keep projects straight, it is essential to know where your project goes and what it is called. Every SCG user has a `$HOME` folder. If you are demo-ing something, that is where you can try things out. The Longo Lab itself has a Lab folder, and in here, all data should be organized by project. 
 
 ## Data Processing
 
@@ -44,7 +46,7 @@ While cluster computing can be intimidating, SCG has made efforts to make this s
 {: .note-title }
 > Code maintenance via GitHub
 > 
-> A very important reason to keep your analysis on SCG in addition your data is that all coding scripts are backed up to our Github organization page nightly. You are welcome to do your own github commits as you work to save a full history of your code, and if your are particularly willing, you can enforce version control too (for more on this, see the Style guide section).
+> A very important reason to keep your analysis on SCG in addition your data is that all coding scripts are backed up to our Github organization page nightly. You are welcome to do your own github commits as you work to save a full history of your code, and if your are particularly willing, you can enforce version control too (for more on this, see the [style guide](/docs/style_guide) section).
 
 ## Project Management
 
