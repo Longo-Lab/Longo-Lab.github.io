@@ -23,6 +23,6 @@ callouts:
 callouts:
   info:
     title: note
-    color: cardinal-red
+    color: stanford-red
     opacity: 0.05
 
