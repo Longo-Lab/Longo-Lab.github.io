@@ -20,3 +20,9 @@ callouts:
     color: stanford-green
     opacity: 0.05
 
+callouts:
+  info:
+    title: note
+    color: cardinal-red
+    opacity: 0.05
+
