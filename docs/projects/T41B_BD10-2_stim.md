@@ -2,7 +2,7 @@
 layout: default
 title: T41B + BD10-2 + stim
 parent: Projects
-nav_order: 3
+nav_order: 7
 ---
 
 # T41B + BD10-2 + stim

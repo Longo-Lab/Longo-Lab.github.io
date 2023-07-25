@@ -2,7 +2,7 @@
 layout: default
 title: PS19 + C31 snRNAseq
 parent: Projects
-nav_order: 7
+nav_order: 2
 ---
 
 # PS19 + C31 snRNAseq

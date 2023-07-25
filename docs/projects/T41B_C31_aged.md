@@ -2,7 +2,7 @@
 layout: default
 title: T41B + C31 aged
 parent: Projects
-nav_order: 6
+nav_order: 8
 ---
 
 # T41B + C31 aged

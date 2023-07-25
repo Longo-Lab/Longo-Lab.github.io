@@ -1,23 +1,24 @@
 ---
 layout: default
-title: T41B + C31 snRNAseq
+title: R6/2 + C31 + stim
 parent: Projects
-nav_order: 9
+nav_order: 5
 ---
 
-# T41B + C31 snRNAseq
+# R6/2 + C31 + stim
 {: .no_toc }
 
-[View on GitHub](#){: .btn .btn-primary .disabled }
-[DE dashboard](#){: .btn .btn-secondary .disabled }
+[View on GitHub](https://github.com/Longo-Lab/R62_C31_stim){: .btn .btn-primary }
+[DE dashboard](https://longo-stanford.shinyapps.io/R62_C31_stim/){: .btn .btn-secondary }
 
 {: .info }
-> - **Model**: T41B
-> - **Age**: 12 month
+> - **Model**: R6/2
+> - **Age**: 4 month
 > - **Drug**: C31
-> - **Tissue**: Cortex
-> - **Time since last dose**: 1h
-> - **RNA-seq type**: Single-cell
+> - **Treatment**: LTP
+> - **Tissue**: Hippocampus
+> - **Time since last dose**: 24h
+> - **RNA-seq type**: Bulk
 
 #### Table of contents
 {: .no_toc .text-delta }
