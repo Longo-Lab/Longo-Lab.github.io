@@ -17,6 +17,10 @@ td {
   white-space: nowrap;
 }
 
+.main-content main > ul {
+  margin-left: 1em;
+}
+
 .site-logo {
   height: 60px;
   line-height: 60px;
@@ -96,4 +100,9 @@ td {
 .pub-text {
   padding-left: 2em ;
   text-indent: -2em ;
+}
+
+.tab-name {
+  font-weight: bolder;
+  color: $stanford-blue-200;
 }
