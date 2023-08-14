@@ -54,8 +54,7 @@ Each of our projects involve a **drug compound** and a **mouse model**, thus all
 
 The figure below summarizes the pairwise comparisons involved in each differential expression analysis:
 
-[![](/assets/images/coming-soon.jpg)](https://pixabay.com/photos/coming-soon-chalk-board-blackboard-2550190/)
-{: .pub-img }
+<img src="/assets/images/de-analysis.png" style="border:1px solid #dfdfdf;border-radius:0.25rem;" />
 
 In the dashboard, the genes list table displays several metrics for each pairwise comparison, primarily the _log2 fold change (LFC)_, associated _p-value_, and _adjusted p-value_. If apeglm effect size shrinkage was performed, the _shrunken LFC_ and corresponding _s-value_ may also be displayed. For single-cell projects, results can additionally include the percentage of cells where the gene is detected in each group.
 
