@@ -109,7 +109,7 @@ The main analysis results are located in the top half of the dashboard. A short 
 
 The first 5 tabs (<span class="tab-name">Treat-AD</span>, <span class="tab-name">Tmt-AD</span>, <span class="tab-name">Mostafavi, et al.</span>, <span class="tab-name">Milind, et al.</span>, <span class="tab-name">Wan, et al.</span>) show the Fisher's exact enrichment of each of the [modules](#modules) with our DE dataset.
 
-Each column in the plot is a module and each row is a subset of genes in our dataset, as defined by being up or down in the genotype, drug, or genotype + drug effect. The same LFC and significance threshold used for determining our [gene categories](#categorization) are applied here (see <span class="tab-name">Summary table</span> tab).
+Each column in the plot is a module and each row is a subset of genes in our dataset, as defined by being up or down in the genotype, drug, or genotype + drug effect. A LFC threshold is applied to filter the genes. If unshrunken LFC is used, an additional significance filter (p-adj < 0.05) is also applied.
 
 Each circle in the plot represents the overlap enrichment of the respective groups of genes. The bigger the circle, the higher the Jaccard index, which is a measure of similarity. The darker the circle, the more significant the overlap. Non-significant overlaps (where significant is defined as FDR < 0.05) are not displayed.
 
