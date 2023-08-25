@@ -31,7 +31,7 @@ At the bottom half of the dashboard, under the <span class="tab-name">Genes list
 
 **Long-term potentiation (LTP)** is defined as the persistent strengthening of synapses following high-frequency stimulation. It is particularly important for learning and memory, thus often studied using hippocampal slices of the brain.
 
-Our projects use TBS treatment in attempt to induce LTP activity. It is found that TBS can successfully induce LTP in _wildtype vehicle (WtV)_ and _drug-treated transgenic (TgD)_ mice, but not _transgenic vehicle (TgV)_ mice. This suggests that the drugs help to restore the ability to maintain LTP.
+Our projects use TBS treatment in attempt to induce LTP activity. It is found that TBS can successfully induce LTP in _wildtype vehicle (WtV)_ and _drug-treated transgenic (TgD)_ mice, but not _transgenic vehicle (TgV)_ mice. This suggests that the drugs can help to restore the ability to maintain LTP.
 
 The figure below summarizes the effects of TBS:
 
@@ -64,9 +64,9 @@ To visualize this, we can plot the LFC for stimulation effect in WtV mice on the
 
 As seen above, the dashed line at `y = x` in the WtV vs. TgV plot represents cases where the gene LFC would be equal in both groups. The activity-dependent genes can be defined as genes that deviate away from that line, specifically ones that have a greater effect in the WtV group than TgV group.
 
-The same comparison can be done between the transgenic vehicle mice (which did not induce LTP) and drug-treated transgenic mice (which successfully restored LTP), as seen in the <span class="tab-name">L2FC correlation</span> tabs [below](#l2fc-correlation-plot).
+The **Category** column in the genes list table can be used to filter for genes that fall into each category. The number of genes per category can be found in the <span class="tab-name">Summary table</span> tab.
 
-To determine the gene categories, the genes are first filtered using a LFC threshold and significance threshold (p-adj < 0.05), where genes are either significant in the WtV and TgD (LTP) groups or TgV (no LTP) group. See the <span class="tab-name">Summary table</span> tab for the specific LFC threshold used and whether the shrunken or unshrunken LFC is used.
+Only genes that are significant in the WtV and TgD (LTP) groups or in the TgV (no LTP) group are included, where significance is defined by meeting a LFC threshold and having a p-adj < 0.05. See the <span class="tab-name">Summary table</span> tab for the specific LFC threshold used and whether the shrunken or unshrunken LFC is used.
 
 ## Analysis results
 
@@ -74,26 +74,57 @@ The main analysis results are located in the top half of the dashboard. A short 
 
 ### Modules enrichment plot
 
-The first 5 tabs (<span class="tab-name">Treat-AD</span>, <span class="tab-name">Tmt-AD</span>, <span class="tab-name">Mostafavi, et al.</span>, <span class="tab-name">Milind, et al.</span>, <span class="tab-name">Wan, et al.</span>) show the Fisher's exact enrichment of each of the [modules](de_dashboard.html#modules) with our DE dataset.
+The <span class="tab-name">Modules enrichment</span> tab shows the Fisher's exact enrichment of each of the [modules](de_dashboard.html#modules) with our DE dataset.
 
-Each column in the plot is a module and each row is a subset of genes in our dataset, as defined by being up or down in stimulation effect in the wildtype vehicle, transgenic vehicle, and drug-treated transgenic mice. The same LFC and significance thresholds used for determining our [gene categories](#categorization) are applied here (see <span class="tab-name">Summary table</span> tab). See the [DE dashboard](de_dashboard.html#modules-enrichment-plot) for more information about the plot and how to interpret it.
+{: .info-title }
+> Try it out
+>
+> Use the buttons above the plot to toggle between the results for each module.
+
+Each column in the plot is a module and each row is a subset of genes in our dataset, as defined by being up or down in stimulation effect in the wildtype vehicle, transgenic vehicle, and drug-treated transgenic mice. The genes are filtered using the same LFC and significance thresholds described in the <span class="tab-name">Summary table</span> tab.
+
+See the [DE dashboard](de_dashboard.html#modules-enrichment-plot) for more information about the plot and how to interpret it.
 
 ### TREAT-AD correlation plot
 
-The <span class="tab-name">Treat-AD correlation</span> tab shows the correlation between human AD expression data and our DE dataset for each TREAT-AD biodomain. See the [DE dashboard](de_dashboard.html#treat-ad-correlation-plot) for more information about the plot and how to interpret it.
+The <span class="tab-name">Treat-AD correlation</span> tab shows the correlation between human AD expression data and our DE dataset for each TREAT-AD biodomain.
+
+See the [DE dashboard](de_dashboard.html#treat-ad-correlation-plot) for more information about the plot and how to interpret it.
 
 ### L2FC correlation plot
 
-The <span class="tab-name">L2FC correlation</span> tabs show the correlation between the stimulation effect in various groups in our DE dataset. Either the shrunken or unshrunken LFC for each gene is plotted, and only genes meeting the LFC criteria are included in the plot, as specified in the <span class="tab-name">Summary table</span> tab. Further, if unshrunken LFC is used, an additional significance filter (p-adj < 0.05) is applied to exclude potential noise.
+The <span class="tab-name">L2FC correlation</span> tab shows the scatterplot as described in the [gene categories](#categorization) section. In addition to the WtV vs. (TgV - WtV) comparison, the TgD vs. (TgV - TgD) comparison is also included as a way of exploring how the LTP-restored TgD mice compare to the WtV mice.
 
-Each point in the plot represents a gene. The LFC for stimulation effect in WtV (or TgD) is plotted on the x-axis and LFC for stimulation effect in TgV - WtV (or TgV - TgD) is plotted on the y-axis. The correlation coefficient and corresponding p-value are shown at the bottom left of the plot. Review the [gene categorizations](#categorization) for more information on how to interpret the plot.
+{: .info-title }
+> Try it out
+>
+> Use the radio buttons to switch between the WtV vs. (TgV - WtV) and TgD vs. (TgV - TgD) comparisons.
+
+Each point in the plot represents a gene. Genes lying in each of the 4 quadrants belong to one of the categories defined [above](#categorization). The color of the point indicates whether the gene is significant in TgV, WtV (or TgD), or both.
+
+![](/assets/images/t41b_bd10-2_stim_l2fc_corr.png)
+{: .img-frame }
+
+As seen in this example plot, we can identify LTP-dependent genes by looking at the second and forth quadrants. Most of the LTP-dependent genes are significant only in the WtV, where LTP is successfully induced. On the other hand, the shared genes are largely ones that are significant in both WtV and TgV.
 
 ### gProfiler results
 
-The next 4 tabs show the [gProfiler](https://biit.cs.ut.ee/gprofiler/gost) enrichment results in both graphical and tabular format, separately for each of the 4 [gene categorizations](#categorization). The number of genes in each category can be seen in the <span class="tab-name">Summary table</span> tab. See the [DE dashboard](de_dashboard.html#gprofiler-results) for more information about the gProfiler results and how to interpret them.
+The next 4 tabs show the [gProfiler](https://biit.cs.ut.ee/gprofiler/gost) enrichment results in both graphical and tabular format, separately for each of the 4 [gene categorizations](#categorization). The number of genes in each category can be seen in the <span class="tab-name">Summary table</span> tab.
+
+See the [DE dashboard](de_dashboard.html#gprofiler-results) for more information about the gProfiler results and how to interpret them.
 
 ### GO terms enrichment plot
 
-The <span class="tab-name">GO terms enrichment</span> tabs show the top 20 up and down-regulated GO terms in each experimental group, separately for the _Biological Process (BP)_, _Molecular Function (MF)_, and _Cellular Component (CC)_ subdivisions of Gene Ontology.
+The <span class="tab-name">GO terms enrichment</span> tabs show the top up and downregulated GO terms in each experimental group. First, the genes are filtered using the same LFC and significance thresholds described in the <span class="tab-name">Summary table</span> tab. Then, they are split into up and downregulated genes and gProfiler is used to obtain the top enriched terms.
 
-The same LFC and significance thresholds used for determining our [gene categories](#categorization) are applied here (see <span class="tab-name">Summary table</span> tab).
+{: .info-title }
+> Try it out
+>
+> Use the filters to select which Gene Ontology terms to display (_Biological Process (BP)_, _Molecular Function (MF)_, or _Cellular Component (CC)_), how many top terms from each experimental group to show, and the term size limit of the terms to include.
+
+Each GO term is plotted as a bar along the y-axis, where the length of the bars reflect its adjusted enrichment p-values in negative log10 scale. Terms enriched for the downregulated genes are flipped so they are plotted along the negative end of the x-axis.
+
+![](/assets/images/t41b_bd10-2_stim_go_terms.png)
+{: .img-frame style="padding:0 100px;" }
+
+In this example plot, we see the top 5 GO:BP terms for each experimental group being plotted, where only terms under the size of 1000 are included. As seen, the top terms for upregulated genes are largely shared across all 3 experimental groups. On the other hand, the top terms for downregulated genes are generally shared only between the WtV and TgD groups (which successfully induced LTP), but not TgV (which did not induce LTP). Specifically, the terms enriched for the LTP groups are all synaptic related, indicating that these processes may be related to LTP.
