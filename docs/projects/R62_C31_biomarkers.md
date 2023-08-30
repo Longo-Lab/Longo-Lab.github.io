@@ -9,7 +9,6 @@ nav_order: 4
 {: .no_toc }
 
 [View on GitHub](https://github.com/Longo-Lab/R62_C31_biomarkers){: .btn .btn-primary }
-[DE dashboard](#){: .btn .btn-secondary .disabled }
 
 {: .info }
 > - **Model**: R6/2

@@ -9,7 +9,9 @@ nav_order: 5
 {: .no_toc }
 
 [View on GitHub](https://github.com/Longo-Lab/R62_C31_stim){: .btn .btn-primary }
-[DE dashboard](https://longo-stanford.shinyapps.io/R62_C31_stim/){: .btn .btn-secondary }
+[Counts dashboard](https://longo-stanford.shinyapps.io/count_R62_C31_stim/){: .btn .btn-secondary .disabled }
+[DE dashboard](https://longo-stanford.shinyapps.io/de_R62_C31_stim/){: .btn .btn-secondary }
+[Stimulation dashboard](https://longo-stanford.shinyapps.io/stim_R62_C31_stim/){: .btn .btn-secondary }
 
 {: .info }
 > - **Model**: R6/2

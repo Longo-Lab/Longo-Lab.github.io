@@ -9,8 +9,9 @@ nav_order: 7
 {: .no_toc }
 
 [View on GitHub](https://github.com/Longo-Lab/T41B_BD10-2_stim){: .btn .btn-primary }
-[DE dashboard](https://longo-stanford.shinyapps.io/T41B_BD10-2_stim/){: .btn .btn-secondary }
-[Gene-level dashboard](https://longo-stanford.shinyapps.io/count_T41B_BD10-2_stim/){: .btn .btn-secondary }
+[Counts dashboard](https://longo-stanford.shinyapps.io/count_T41B_BD10-2_stim/){: .btn .btn-secondary }
+[DE dashboard](https://longo-stanford.shinyapps.io/de_T41B_BD10-2_stim/){: .btn .btn-secondary }
+[Stimulation dashboard](https://longo-stanford.shinyapps.io/stim_T41B_BD10-2_stim/){: .btn .btn-secondary }
 
 {: .info }
 > - **Model**: T41B

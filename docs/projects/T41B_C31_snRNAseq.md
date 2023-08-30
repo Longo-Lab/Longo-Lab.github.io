@@ -9,6 +9,7 @@ nav_order: 9
 {: .no_toc }
 
 [View on GitHub](#){: .btn .btn-primary .disabled }
+[Counts dashboard](#){: .btn .btn-secondary .disabled }
 [DE dashboard](#){: .btn .btn-secondary .disabled }
 
 {: .info }

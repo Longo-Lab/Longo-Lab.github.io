@@ -9,8 +9,9 @@ nav_order: 3
 {: .no_toc }
 
 [View on GitHub](https://github.com/Longo-Lab/PS19_C31_stim){: .btn .btn-primary }
-[DE dashboard](https://longo-stanford.shinyapps.io/PS19_C31_stim/){: .btn .btn-secondary }
-[Gene-level dashboard](https://flongo.shinyapps.io/p75_c31/){: .btn .btn-secondary }
+[Counts dashboard](https://flongo.shinyapps.io/p75_c31/){: .btn .btn-secondary }
+[DE dashboard](https://longo-stanford.shinyapps.io/de_PS19_C31_stim/){: .btn .btn-secondary }
+[Stimulation dashboard](https://longo-stanford.shinyapps.io/stim_PS19_C31_stim/){: .btn .btn-secondary }
 
 {: .info }
 > - **Model**: PS19

@@ -9,7 +9,8 @@ nav_order: 8
 {: .no_toc }
 
 [View on GitHub](https://github.com/Longo-Lab/T41B_C31_aged){: .btn .btn-primary }
-[DE dashboard](https://longo-stanford.shinyapps.io/T41B_C31_aged/){: .btn .btn-secondary }
+[Counts dashboard](https://longo-stanford.shinyapps.io/count_T41B_C31_aged/){: .btn .btn-secondary .disabled }
+[DE dashboard](https://longo-stanford.shinyapps.io/de_T41B_C31_aged/){: .btn .btn-secondary }
 
 {: .info }
 > - **Model**: T41B
