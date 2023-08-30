@@ -10,6 +10,7 @@ nav_order: 7
 
 [View on GitHub](https://github.com/Longo-Lab/T41B_BD10-2_stim){: .btn .btn-primary }
 [DE dashboard](https://longo-stanford.shinyapps.io/T41B_BD10-2_stim/){: .btn .btn-secondary }
+[Gene-level dashboard](https://longo-stanford.shinyapps.io/count_T41B_BD10-2_stim/){: .btn .btn-secondary }
 
 {: .info }
 > - **Model**: T41B
