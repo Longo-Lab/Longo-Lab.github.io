@@ -1,0 +1,53 @@
+:root {
+  --stanford-red-000: #faf5f5;
+  --stanford-red-100: #e50808;
+  --stanford-red-200: #b1040e;
+  --stanford-red-300: #820000;
+}
+
+#main {
+  min-width: 750px;
+}
+
+#main,
+#menu {
+  display: flex;
+  align-items: center;
+}
+
+#menu {
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+#menu a {
+  margin: 10px;
+}
+
+#menu .btn-primary {
+  pointer-events: none;
+}
+
+#menu .btn-primary:hover {
+  border-color: var(--stanford-red-200) !important;
+  background-image: linear-gradient(var(--stanford-red-100), var(--stanford-red-200));
+}
+
+line {
+  stroke: gray;
+}
+
+.axis,
+.labels text {
+  font-size: 14px;
+  fill: gray;
+  text-anchor: middle;
+}
+
+.labels text {
+  outline: white;
+}
+
+.divider {
+  stroke-dasharray: 2, 4;
+}
