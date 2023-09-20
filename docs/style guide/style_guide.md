@@ -20,6 +20,17 @@ An essential component of your research is notes! In order to take notes on code
 > 
 > A very important reason to keep your analysis on SCG is that all coding scripts are backed up to our Github organization page nightly. You are welcome to do your own github commits as you work to save a full history of your code, and expected to ultimately break out projects on their own respective github projects for more control (for more on this, see the [lab_policies](/docs/lab_policies) section and the [tutorial](/docs/tutorials/github_project)).
 
+Their are several unusual things about this setup from traditional GitHub projects:
+### 1. Only code is backed up to the repository
+
+### 2. Code is backed up to the `main` 
+
+### 3. ...
+
+### Strategies to follow for effective project control
+#### Break out your own project
+#### Never
+
 More to come here...
 
 ## Headers
@@ -135,6 +146,8 @@ __email__ = 'rrbutler@stanford.edu'
 ```
 
 ## Annotation
+In addition to headers, code should also be well commented in the manner of each respective language. In particular, function annotation is a must.
+
 
 # Languages
 
