@@ -17,7 +17,8 @@ td {
   white-space: nowrap;
 }
 
-.main-content main > ul {
+.main-content main > ul,
+.main-content main > ol {
   margin-left: 1em;
 }
 

@@ -1,0 +1,167 @@
+{
+  "name": "root",
+  "children": [
+    {
+      "name": "Non-Neuronal",
+      "color": "#b50c00",
+      "markers": "Gapdh",
+      "children": [
+        {
+          "name": "Astro",
+          "full_name": "Astrocyte",
+          "color": "#c8a06e",
+          "children": [
+            {"name": "ARP", "full_name": "Astrocyte-restricted precursors", "markers": "Cd44, Gja1"},
+            {"name": "ASC", "full_name": "Astrocytes", "markers": "Gja1, Slc1a2, Slc4a4"},
+            {"name": "NSC", "full_name": "Neural stem cells", "markers": "Thbs4, Gja1"}
+          ]
+        },
+        {
+          "name": "Epend",
+          "full_name": "Ependymal cells",
+          "color": "#d87d3e",
+          "children": [
+            {"name": "CPC", "full_name": "Choroid plexus epithelial cells", "markers": "Ttr"},
+            {"name": "EPC", "full_name": "Ependymocytes", "markers": "Ccdc153, Gja1"},
+            {"name": "HypEPC", "full_name": "Hypendymal cells", "markers": "Sspo, Ccdc153"},
+            {"name": "TNC", "full_name": "Tanycytes", "markers": "Rax, Gja1"}
+          ]
+        },
+        {
+          "name": "Immun",
+          "full_name": "Immune cells",
+          "color": "#a18faa",
+          "children": [
+            {"name": "DC", "full_name": "Dendritic cells", "markers": "Cd209a"},
+            {"name": "FB", "full_name": "Fibroblasts"},
+            {"name": "MAC", "full_name": "Macrophages", "markers": "Pf4"},
+            {"name": "MG", "full_name": "Microglia", "markers": "Tmem119, Apbb1ip"},
+            {"name": "MNC", "full_name": "Monocytes", "markers": "Plac8, Cd44"},
+            {"name": "NEUT", "full_name": "Neutrophils", "markers": "S100a9, Cd44"}
+          ]
+        },
+        {
+          "name": "Oligo",
+          "full_name": "Oligodendrocyte",
+          "color": "#5a3b7e",
+          "children": [
+            {"name": "OEG", "full_name": "Olfactory ensheathing glia", "markers": "Npy, Gja1"},
+            {"name": "OLG", "full_name": "Oligodendrocytes", "markers": "Mobp, Cldn11"}
+          ]
+        },
+        {
+          "name": "OPC",
+          "full_name": "Oligodendrocyte precursor cells",
+          "color": "#cb8d77",
+          "children": [
+            {"name": "OPC", "full_name": "Oligodendrocyte precursor cells", "markers": "Pdgfra, Pcdh15"}
+          ]
+        },
+        {
+          "name": "Vascu",
+          "full_name": "Vasculature cells",
+          "color": "#995a38",
+          "children": [
+            {"name": "ABC", "full_name": "Arachnoid barrier cells", "markers": "Slc47a1, Gja1, Cldn11"},
+            {"name": "EC", "full_name": "Endothelial cells", "markers": "Cldn5, Flt1, Dusp1, Cobll1"},
+            {"name": "Hb_VC", "full_name": "Hemoglobin-expressing vascular cells", "markers": "Alas2, Cldn5"},
+            {"name": "PC", "full_name": "Pericytes", "markers": "Kcnj8, Cldn5, Pdgfrb, Cobll1"},
+            {"name": "SMC", "full_name": "Smooth muscle cells", "markers": "Acta2, Cldn5"},
+            {"name": "VLMC", "full_name": "Vascular and leptomeningeal cells", "markers": "Slc6a13, Gja1"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Glutamatergic",
+      "color": "#91b500",
+      "markers": "Slc17a7, Satb2",
+      "children": [
+        {
+          "name": "PT",
+          "full_name": "Pyramidal tract neurons",
+          "color": "#be3634",
+          "markers": "Fam84b, Bcl6",
+          "children": [
+            {"name": "L4 RSP-ACA", "full_name": "L4 retrosplenial, anterior cingulate", "markers": "Scnn1a"},
+            {"name": "L5 PT CTX", "full_name": "L5 PT isocortex", "markers": "Chrna6, Npnt, Cdh13, C1ql2"}
+          ]
+        },
+        {
+          "name": "NP/CT/L6b",
+          "full_name": "Near-projecting/Corticothalamic/Layer 6b neurons",
+          "color": "#c07f7b",
+          "markers": "Foxp2, Tshz2, Meis2",
+          "children": [
+            {"name": "CT ENT", "full_name": "CT entorhinal area", "markers": "Rorb"},
+            {"name": "L6b ENT", "full_name": "L6b entorhinal area", "markers": "Cplx3, Cobll1"},
+            {"name": "L6b CTX", "full_name": "L6b isocortex", "markers": "Clic5, Slc17a8"},
+            {"name": "L6 CT CTX", "full_name": "L6 CT isocortex", "markers": "Syt6"},
+            {"name": "L5/6 NP CTX", "full_name": "L5/6 NP isocortex", "markers": "Sla2"}
+          ]
+        },
+        {
+          "name": "L4/5/6 IT Car3",
+          "full_name": "Layer 4/5/6 intratelencephalic & Car3 neurons",
+          "color": "#52954f",
+          "markers": "Cux2, Rorb, Cdh9",
+          "children": [
+            {"name": "Car3", "markers": "Car3"},
+            {"name": "L6 IT ENTl", "full_name": "L6 IT lateral entorhinal area", "markers": "Dlk1"},
+            {"name": "L6 IT CTX", "full_name": "L6 IT isocortex", "markers": "Fst, Osr1"},
+            {"name": "L5/6 IT TPE-ENT", "full_name": "L5/6 IT TEa-PERI-ECT, entorhinal cortex", "markers": "Dcn"},
+            {"name": "L5/6 IT CTX", "full_name": "L5/6 IT isocortex", "markers": "Cdh9"},
+            {"name": "L5 IT RSP-ACA", "full_name": "L5 IT retrosplenial, anterior cingulate", "markers": "Tshz2"},
+            {"name": "L5 IT CTX", "full_name": "L5 IT isocortex", "markers": "Foxo1"},
+            {"name": "L4/5 IT CTX", "full_name": "L4/5 IT isocortex", "markers": "Cux2, Etv1"},
+            {"name": "L4 IT CTX", "full_name": "L4 IT isocortex", "markers": "Rspo1"}
+          ]
+        },
+        {
+          "name": "L2/3 IT",
+          "full_name": "Layer 2/3 intratelencephalic neurons",
+          "color": "#96b175",
+          "markers": "Otof, Cux2",
+          "children": [
+            {"name": "L3 IT ENTm", "full_name": "L3 IT medial entorhinal area", "markers": "Plch1"},
+            {"name": "L3 IT ENTl", "full_name": "L3 IT lateral entorhinal area", "markers": "Fign"},
+            {"name": "L2/3 IT ENTl", "full_name": "L2/3 IT lateral entorhinal area", "markers": "Fign, Ndst4"},
+            {"name": "L2/3 IT CTX", "full_name": "L2/3 IT isocortex", "markers": "Trhr, Stard8, Baz1a"},
+            {"name": "L2 IT ENTm", "full_name": "L2 IT medial entorhinal area", "markers": "Lef1"},
+            {"name": "L2 IT ENTl", "full_name": "L2 IT lateral entorhinal area", "markers": "Grik1"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GABAergic",
+      "color": "#0076b5",
+      "markers": "Gad1, Gad2",
+      "children": [
+        {
+          "name": "MGE",
+          "full_name": "Medial ganglionic eminence",
+          "color": "#3d6d9c",
+          "markers": "Sox6, Rbp4",
+          "children": [
+            {"name": "Sst Chodl", "markers": "Sst, Chodl"},
+            {"name": "Sst", "markers": "Sst, Calb2, Crh, Ctsc, Etv1, Hpse, Lmo1, Mme, Myh8, Nmbr, Nts, Syndig1"},
+            {"name": "Pvalb", "markers": "Pvalb, Lpl, Th, Vipr2"}
+          ]
+        },
+        {
+          "name": "CGE",
+          "full_name": "Caudal ganglionic eminence",
+          "color": "#abc7d5",
+          "markers": "Adarb2, Prox1",
+          "children": [
+            {"name": "Meis2", "markers": "Meis2"},
+            {"name": "Vip", "markers": "Vip, Cbln4, Cp, Igfbp6, Lmo1, Mybpc1, Pcdh11x, Rspo1"},
+            {"name": "Sncg", "markers": "Sncg, Jam2, Krt73, Npy2r, Ntng1"},
+            {"name": "Lamp5", "markers": "Lamp5, Egln3, Lhx6, Pax6, Pdlim5"}
+          ]
+        }
+      ]
+    }
+  ]
+}

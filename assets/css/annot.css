@@ -1,0 +1,91 @@
+.tabset {
+  display: flex;
+  box-shadow: 0 -0.05rem #00000012 inset;
+}
+
+.tabset div {
+  padding: 0.5em 1em;
+  cursor: pointer
+}
+
+.tabset .active {
+  color: #b1040e;
+  border-bottom: 2px solid #b1040e;
+}
+
+.tab {
+  display: none;
+  padding: 1em 0.5em 0;
+  height: 510px;
+  overflow-y: auto;
+}
+
+.tab.active {
+  display: block;
+}
+
+.info-box text {
+  text-anchor: middle;
+}
+
+.info-box .title {
+  font-size: 18px;
+}
+
+.info-box .subtitle {
+  font-size: 12px;
+  font-weight: 300;
+  fill: gray;
+}
+
+.info-box .name {
+  font-size: 16px;
+}
+
+.info-box .level {
+  font-size: 10px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.info-box .markers {
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.nodes text {
+  font-size: 12px;
+  paint-order: stroke;
+  stroke: white;
+  stroke-width: 2px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  cursor: default;
+}
+
+.nodes path,
+.hidden {
+  display: none;
+}
+
+.nodes .label--active {
+  opacity: 1;
+}
+
+.nodes .label--active:hover {
+  font-weight: 600;
+}
+
+.links path {
+  stroke: #ccc;
+}
+
+.links .link--active {
+  opacity: 1;
+  stroke: #888;
+}
+
+.inactive {
+  opacity: 0.25;
+}
