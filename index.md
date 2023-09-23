@@ -195,7 +195,9 @@ permalink: /
 <footer class="footer py-4 bg-light">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-4 text-lg-start">Copyright &copy; Longo Lab 2023</div>
+            <div class="col-lg-4 text-lg-start">Made by: Crystal Han, Patricia Morán Losada, Robert R Butler III<br>Copyright &copy; Longo Lab 
+                <script>document.write(/\d{4}/.exec(Date())[0])</script>
+            </div>
             <div class="col-lg-4 my-3 my-lg-0">
                 <a class="btn btn-dark btn-social mx-2" href="https://github.com/Longo-Lab"><i class="fab fa-github"></i></a>
                 <a class="btn btn-dark btn-social mx-2" href="https://med.stanford.edu/longo-lab.html"><i class="fa-solid fa-link"></i></a>

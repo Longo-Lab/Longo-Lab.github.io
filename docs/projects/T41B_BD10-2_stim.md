@@ -32,13 +32,17 @@ nav_order: 7
 
 ## Publications
 
-[![](/assets/images/coming-soon.jpg)](https://pixabay.com/photos/coming-soon-chalk-board-blackboard-2550190/)
+[![](/assets/images/t41b_bd10-2_stim_fig.png)](https://doi.org/10.1101/2023.09.18.558138)
 {: .pub-img }
 
-**Author Last name**, First initial. Middle initial. (Year Published). Title of article. _Title of Periodical_, Volume(Issue), page range. [https://doi.org/xxxx](https://www.citationmachine.net/apa/cite-a-journal) or URL
+A TrkB and TrkC partial agonist restores deficits in synaptic function and promotes activity-dependent synaptic and microglial transcriptomic changes in a late-stage Alzheimer's mouse model
+**Amira Latif-Hernandez, Tao Yang, Robert Raymond-Butler III, Patricia Moran-Losada, Paras Minhas, Halle White, Kevin Chan Tran, Harry Liu, Danielle Simmons, Vanessa Langness, Katrin Andreasson, Tony Wyss-Coray, Frank M Longo**
+_bioRxiv_ [doi: 2023.09.18.558138](https://doi.org/10.1101/2023.09.18.558138) 
 {: .pub-text }
 
 ## Methods
+
+More detail to come
 
 ```r
 library(tidyverse)
