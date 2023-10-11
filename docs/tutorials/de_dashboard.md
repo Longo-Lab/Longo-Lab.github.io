@@ -73,13 +73,14 @@ If the unshrunken LFC is used to define the gene categories, a LFC cutoff is app
 
 ### Modules
 
-To help orient each gene in the context of Alzheimer's Disease (AD), we use modules from 5 different sources that attempt to categorize genes by function and disease relevance:
+To help orient each gene in the context of Alzheimer's Disease (AD), we use modules from multiple sources that attempt to categorize genes by function and disease relevance:
 
 - **TreatAD**: TREAT-AD pathway traced modules from [Cary, et al. (2022)](https://www.medrxiv.org/content/10.1101/2022.12.15.22283478v1)
-- **TmtAD**: TMT-LP proteomic modules from [Johnson, et al. (2022)](https://pubmed.ncbi.nlm.nih.gov/35115731/)
 - **Mostafavi**: SpeakEasy gene modules from [Mostafavi, et al. (2018)](https://pubmed.ncbi.nlm.nih.gov/29802388/)
 - **Milind**: Submodules of human/mouse co-expression from [Milind, et al. (2020)](https://pubmed.ncbi.nlm.nih.gov/32492070/)
 - **Wan**: Submodules of human/mouse co-expression from [Wan, et al. (2020)](https://pubmed.ncbi.nlm.nih.gov/32668255/)
+- **TmtAD**: TMT-LP proteomic modules from [Johnson, et al. (2022)](https://pubmed.ncbi.nlm.nih.gov/35115731/)
+- **BA6**/**BA37**: TMT-LP proteomic modules for Brodmann area 6 & 37 from [Hurst, et al. (2023)](https://pubmed.ncbi.nlm.nih.gov/37024090/)
 
 For each source, the genes list table indicates how many modules each gene belongs to.
 
@@ -105,9 +106,9 @@ To help determine whether each gene is a transcription factor (TF) or other prot
 
 The main analysis results are located in the top half of the dashboard. A short description of each type of result and how to interpret them can be found below.
 
-### Modules enrichment plot
+### Module enrichment plots
 
-The <span class="tab-name">Modules enrichment</span> tab shows the Fisher's exact enrichment of each of the [modules](#modules) with our DE dataset.
+The <span class="tab-name">Transcriptomics enrichment</span> and <span class="tab-name">Proteomics enrichment</span> tabs show the Fisher's exact enrichment of each of the [modules](#modules) with our DE dataset.
 
 {: .info-title }
 > Try it out
@@ -152,9 +153,14 @@ In this example plot, there is a moderate negative correlation between the genot
 
 ### gProfiler results
 
-The last 6 tabs show the [gProfiler](https://biit.cs.ut.ee/gprofiler/gost) enrichment results in both graphical and tabular format, separately for the following gene categorizations: direct + indirect enhancement/suppression genes, only direct enhancement/suppression genes, and compensatory enhancement/suppression genes. The number of genes in each category can be seen in the <span class="tab-name">Summary table</span> tab.
+The <span class="tab-name">gProfiler</span> grouped tabs show the [gProfiler](https://biit.cs.ut.ee/gprofiler/gost) enrichment results in both graphical and tabular format, separately for the following gene categorizations: direct + indirect enhancement/suppression genes, only direct enhancement/suppression genes, and compensatory enhancement/suppression genes. The number of genes in each category can be seen in the <span class="tab-name">Summary table</span> tab.
 
 gProfiler takes a list of ranked genes as input, and outputs enrichment from multiple sources including Gene Ontology terms, biological pathways, regulatory motifs of transcription factors, and more. We rank the input genes list by LFC, either shrunken or unshrunken as indicated in the <span class="tab-name">Summary table</span> tab.
+
+{: .info-title }
+> Try it out
+>
+> Toggle the **gProfiler** tab to expand and collapse the grouped tabs.
 
 The <span class="tab-name">gProfiler plot</span> tabs show the enrichment analysis results in a Manhattan-like plot, separately for enhancement and suppression genes. Each point represents a functional term, and its data source is color-coded along the x-axis. The y-axis shows the adjusted enrichment p-values in negative log10 scale, where the higher the value, the more enriched the term.
 
@@ -169,3 +175,21 @@ The <span class="tab-name">gProfiler table</span> tabs show the enrichment analy
 > Try it out
 >
 > Hover over the number of genes in the **Intersection** columns to see the specific genes that overlap with each term.
+
+### GSEA results
+
+The <span class="tab-name">GSEA</span> grouped tabs show the gene set enrichment analysis results for each TREAT-AD biodomain in both graphical and tabular format, separately for the following effects: genotype, drug, and genotype + drug effect.
+
+{: .info-title }
+> Try it out
+>
+> Toggle the **GSEA** tab to expand and collapse the grouped tabs.
+
+The <span class="tab-name">GSEA plot</span> tabs show the enrichment analysis results in a graphical format. Each point represents a GO term, and its normalized enrichment score (NES) is plotted along the x-axis. A positive enrichment score occurs when genes in the gene set are largely up-regulated, while a negative enrichment score occurs when the genes are largely down-regulated. The GO terms are grouped by TREAT-AD biodomain along the y-axis.
+
+{: .info-title }
+> Try it out
+>
+> Hover over each point in the plot to show the name of the GO term.
+
+The <span class="tab-name">GSEA table</span> tabs show the enrichment analysis results in a tabular format. Each row represents a term. The **Term size** column indicates how many genes are in each term, and the **Biodomain** column identifies which TREAT-AD biodomain the term belongs to. The corresponding adjusted p-value and normalized enrichment score (NES) are also shown.
