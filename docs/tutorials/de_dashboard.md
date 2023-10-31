@@ -46,7 +46,7 @@ For each gene, there is additional information on its [differential expression a
 >
 > For categorical columns, the search field will be a dropdown menu. For numeric columns, there will be a range selector, but specific ranges can also be inputted by typing `min_range...max_range` in the search field (e.g., `0...0.5`). 
 
-The <span class="tab-name">Summary table</span> tab contains summary and meta data as described in more detail below.
+The <span class="tab-name">Summary table</span> tab contains summary data as described in more detail below.
 
 ### DE analysis
 
@@ -69,7 +69,7 @@ The same idea can be applied to the stimulation effect, where stimulation replac
 
 The **Category** and **Direct** columns in the genes list table can be used to filter for genes that fall into each category. The number of genes per category can be found in the <span class="tab-name">Summary table</span> tab.
 
-If the unshrunken LFC is used to define the gene categories, a LFC cutoff is applied as well as a significance threshold. If the shrunken LFC is used, only a LFC cutoff is applied. The specific fields and thresholds used can be found in the <span class="tab-name">Summary table</span> tab.
+If the unshrunken LFC is used to define the gene categories, a LFC cutoff is applied as well as a significance threshold. If the shrunken LFC is used, only a LFC cutoff is applied. The specific fields and thresholds used can be found in the left-hand sidebar.
 
 ### Modules
 
@@ -80,7 +80,7 @@ To help orient each gene in the context of Alzheimer's Disease (AD), we use modu
 - **Milind**: Submodules of human/mouse co-expression from [Milind, et al. (2020)](https://pubmed.ncbi.nlm.nih.gov/32492070/)
 - **Wan**: Submodules of human/mouse co-expression from [Wan, et al. (2020)](https://pubmed.ncbi.nlm.nih.gov/32668255/)
 - **TmtAD**: TMT-LP proteomic modules from [Johnson, et al. (2022)](https://pubmed.ncbi.nlm.nih.gov/35115731/)
-- **BA6**/**BA37**: TMT-LP proteomic modules for Brodmann area 6 & 37 from [Hurst, et al. (2023)](https://pubmed.ncbi.nlm.nih.gov/37024090/)
+- **Resilience**: TMT-LP proteomic modules for Brodmann area 6 & 37 from [Hurst, et al. (2023)](https://pubmed.ncbi.nlm.nih.gov/37024090/)
 
 For each source, the genes list table indicates how many modules each gene belongs to.
 
@@ -126,7 +126,7 @@ In this example plot, we see significant overlaps between astroglial/microglial-
 
 ### TREAT-AD correlation plot
 
-The <span class="tab-name">Treat-AD correlation</span> tab shows the correlation between human AD expression data and our DE dataset for each TREAT-AD biodomain. Either the shrunken or unshrunken LFC is used in our dataset, as specified in the <span class="tab-name">Summary table</span> tab. No LFC or significance threshold is applied to the genes in order to gauge the broader overall trend.
+The <span class="tab-name">Treat-AD correlation</span> tab shows the correlation between human AD expression data and our DE dataset for each TREAT-AD biodomain. Either the shrunken or unshrunken LFC is used in our dataset, as specified in the left-hand sidebar. No LFC or significance threshold is applied to the genes in order to gauge the broader overall trend.
 
 Each circle in the plot represents the correlation between the respective groups of genes. The number in the circle is the correlation coefficient. The darker the blue, the more positive the correlation. The darker the red, the more negative the correlation. Non-significant correlations (where significant is defined as FDR < 0.05) are not displayed.
 
@@ -137,7 +137,7 @@ In this example plot, we see consistently positive correlations between human AD
 
 ### L2FC correlation plot
 
-The <span class="tab-name">L2FC correlation</span> tab shows the correlation between the genotype and drug effect in our DE dataset. Either the shrunken or unshrunken LFC for each gene is plotted, and only genes meeting the LFC criteria are included in the plot, as specified in the <span class="tab-name">Summary table</span> tab. Further, if unshrunken LFC is used, an additional significance filter (p-value < 0.05) is applied to exclude potential noise.
+The <span class="tab-name">L2FC correlation</span> tab shows the correlation between the genotype and drug effect in our DE dataset. Either the shrunken or unshrunken LFC for each gene is plotted, and only genes meeting the LFC criteria are included in the plot, as specified in the left-hand sidebar. Further, if unshrunken LFC is used, an additional significance filter (p-value < 0.05) is applied to exclude potential noise.
 
 Each point in the plot represents a gene. The LFC for drug effect is plotted on the x-axis and LFC for genotype effect is plotted on the y-axis. The correlation coefficient and corresponding p-value are shown at the bottom left of the plot.
 
@@ -155,7 +155,7 @@ In this example plot, there is a moderate negative correlation between the genot
 
 The <span class="tab-name">gProfiler</span> grouped tabs show the [gProfiler](https://biit.cs.ut.ee/gprofiler/gost) enrichment results in both graphical and tabular format, separately for the following gene categorizations: direct + indirect enhancement/suppression genes, only direct enhancement/suppression genes, and compensatory enhancement/suppression genes. The number of genes in each category can be seen in the <span class="tab-name">Summary table</span> tab.
 
-gProfiler takes a list of ranked genes as input, and outputs enrichment from multiple sources including Gene Ontology terms, biological pathways, regulatory motifs of transcription factors, and more. We rank the input genes list by LFC, either shrunken or unshrunken as indicated in the <span class="tab-name">Summary table</span> tab.
+gProfiler takes a list of ranked genes as input, and outputs enrichment from multiple sources including Gene Ontology terms, biological pathways, regulatory motifs of transcription factors, and more. We rank the input genes list by greatest combined absolute genotype and drug LFC, either shrunken or unshrunken as indicated in the left-hand sidebar.
 
 {: .info-title }
 > Try it out
@@ -178,18 +178,32 @@ The <span class="tab-name">gProfiler table</span> tabs show the enrichment analy
 
 ### GSEA results
 
-The <span class="tab-name">GSEA</span> grouped tabs show the gene set enrichment analysis results for each TREAT-AD biodomain in both graphical and tabular format, separately for the following effects: genotype, drug, and genotype + drug effect.
+The <span class="tab-name">GSEA</span> grouped tabs show the gene set enrichment analysis (GSEA) results for each TREAT-AD biodomain in both graphical and tabular format, separately for the following effects: genotype, drug, and genotype + drug effect.
+
+First, the mouse genes are mapped to human orthologs in order to query the human gene set database, which is more extensive. Mouse genes without a human ortholog are dropped. If multiple mouse genes map to the same human gene, the one with the greater absolute LFC is kept. The genes are ranked by descending LFC, either shrunken or unshrunken as indicated in the left-hand sidebar. An enrichment score can then be calculated for each gene set based on where its genes fall in the list of ranked genes.
 
 {: .info-title }
 > Try it out
 >
 > Toggle the **GSEA** tab to expand and collapse the grouped tabs.
 
-The <span class="tab-name">GSEA plot</span> tabs show the enrichment analysis results in a graphical format. Each point represents a GO term, and its normalized enrichment score (NES) is plotted along the x-axis. A positive enrichment score occurs when genes in the gene set are largely up-regulated, while a negative enrichment score occurs when the genes are largely down-regulated. The GO terms are grouped by TREAT-AD biodomain along the y-axis.
+The <span class="tab-name">GSEA plot</span> tabs show the enrichment analysis results in a graphical format. Each point represents a GO term, and its normalized enrichment score (NES) is plotted along the x-axis. A positive enrichment score occurs when genes in the gene set are largely up-regulated (i.e., most genes fall on the positive LFC end of the ranked genes list), while a negative enrichment score occurs when the genes are largely down-regulated (i.e., most genes fall on the negative end of the list). The enrichment scores are normalized by gene set size. The GO terms are grouped by TREAT-AD biodomain along the y-axis.
 
 {: .info-title }
 > Try it out
 >
 > Hover over each point in the plot to show the name of the GO term.
 
-The <span class="tab-name">GSEA table</span> tabs show the enrichment analysis results in a tabular format. Each row represents a term. The **Term size** column indicates how many genes are in each term, and the **Biodomain** column identifies which TREAT-AD biodomain the term belongs to. The corresponding adjusted p-value and normalized enrichment score (NES) are also shown.
+The relationship between the gene set enrichment for genotype and drug effect is summarized in the <span class="tab-name">GSEA correlation</span> tab. Each point represents a GO term, where its NES for drug effect is plotted on the x-axis and NES for genotype effect is plotted on the y-axis. Only terms that are significant (adjusted p-value < 0.05) in either genotype or drug effect (or both) are plotted.
+
+{: .info-title }
+> Try it out
+>
+> Hover over each point in the plot to show the name of the GO term and its NES and adjusted p-value for both genotype and drug effect. Click on each biodomain name in the legend to toggle the display of all gene sets belonging to that biodomain. Double-click on each biodomain name to toggle between selecting all and displaying just that one biodomain.
+
+![](/assets/images/ps19_c31_stim_gsea_corr.png)
+{: .img-frame }
+
+In this example plot, there is a strong negative correlation between the NES for genotype and drug effect across biodomains. This shows that many gene sets as a whole are being expressed in opposite directions for genotype and drug, suggesting the effectiveness of the drug in reversing effects of the disease.
+
+The <span class="tab-name">GSEA table</span> tabs show the enrichment analysis results in a tabular format. Each row represents a term. The **Term size** column indicates how many genes are in each term, and the **Biodomain** column identifies which TREAT-AD biodomain the term belongs to. The corresponding NES and adjusted p-value are also shown.
