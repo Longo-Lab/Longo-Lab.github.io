@@ -23,3 +23,5 @@ callouts:
     color: stanford-red
     opacity: 0.05
 
+# For copy button on code
+enable_copy_code_button: true
