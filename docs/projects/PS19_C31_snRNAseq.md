@@ -9,7 +9,7 @@ nav_order: 2
 {: .no_toc }
 
 [View on GitHub](https://github.com/Longo-Lab/PS19_C31_snRNAseq){: .btn .btn-primary }
-[Counts dashboard](#){: .btn .btn-secondary .disabled }
+[Counts dashboard](https://longo-stanford.shinyapps.io/count_PS19_C31_snRNAseq/){: .btn .btn-secondary }
 [DE dashboard](https://longo-stanford.shinyapps.io/PS19_C31_snRNAseq/){: .btn .btn-secondary }
 
 {: .info }
