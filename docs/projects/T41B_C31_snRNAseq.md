@@ -9,7 +9,7 @@ nav_order: 9
 {: .no_toc }
 
 [View on GitHub](#){: .btn .btn-primary .disabled }
-[Counts dashboard](#){: .btn .btn-secondary .disabled }
+[Counts dashboard](https://longo-stanford.shinyapps.io/count_T41B_C31_snRNAseq/){: .btn .btn-secondary }
 [DE dashboard](#){: .btn .btn-secondary .disabled }
 
 {: .info }
