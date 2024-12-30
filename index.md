@@ -129,8 +129,9 @@ permalink: /
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Projects</h2>
-            <h3 class="section-subheading text-muted">Shortcut to past and ongoing bioinformatic projects</h3>
-            <a class="btn btn-primary btn-xl text-uppercase" href="/docs/projects.html">Projects</a>
+            <h3 class="section-subheading text-muted">Past and ongoing bioinformatic projects</h3>
+            <a class="btn btn-primary btn-xl text-uppercase" href="https://med.stanford.edu/longo-lab/projects.html">Research Overview</a>
+            <a class="btn btn-primary btn-xl text-uppercase" href="/docs/projects.html">Project Dashboards</a>
         </div>
 <!--
         <ul class="timeline">
