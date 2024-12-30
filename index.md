@@ -101,7 +101,7 @@ permalink: /
                     <i class="fas fa-circle fa-stack-2x text-secondary"></i>
                     <i class="fas fa-syringe fa-stack-1x fa-inverse"></i>
                 </span>
-                <h4 class="my-3"><a href="/docs/projects/PS19_C31_stim.html">LM11A-C31 (C31)</a></h4>
+                <h4 class="my-3"><a href="https://pubmed.ncbi.nlm.nih.gov/?term=lm11a-31">LM11A-C31 (C31)</a></h4>
                 <p class="text-muted">C31 targets p75 neurotrophin receptor.</p>
             </div>
             <div class="col-md-4">
@@ -109,7 +109,7 @@ permalink: /
                     <i class="fas fa-circle fa-stack-2x text-secondary"></i>
                     <i class="fas fa-syringe fa-stack-1x fa-inverse"></i>
                 </span>
-                <h4 class="my-3">PTX-BD10-2 (BD10-2)</h4>
+                <h4 class="my-3"><a href="https://pubmed.ncbi.nlm.nih.gov/?term=ptx-bd10-2">PTX-BD10-2 (BD10-2)</a></h4>
                 <p class="text-muted">BD10-2 targets TRK neurotrophin receptors.</p>
             </div>
             <div class="col-md-4">
