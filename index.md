@@ -93,7 +93,7 @@ permalink: /
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Drug compounds</h2>
-            <h3 class="section-subheading text-muted">Therapeutic compounds being developed by the Longo Lab.</h3>
+            <h3 class="section-subheading text-muted">Therapeutic compounds studied in the Longo Lab.</h3>
         </div>
         <div class="row text-center">
             <div class="col-md-4">
@@ -129,8 +129,10 @@ permalink: /
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Projects</h2>
-            <h3 class="section-subheading text-muted">Below is a list of past and ongoing projects with sequencing data. See <a href="/docs/projects.html">here</a> for more information.</h3>
+            <h3 class="section-subheading text-muted">Shortcut to past and ongoing bioinformatic projects</h3>
+            <a class="btn btn-primary btn-xl text-uppercase" href="/docs/projects.html">Projects</a>
         </div>
+<!--
         <ul class="timeline">
             <li>
                 <div class="timeline-image"><i class="fas fa-4x fa-dna fa-stack-1x fa-inverse"></i></div>
@@ -206,6 +208,7 @@ permalink: /
                 <div class="timeline-image"><i class="fas fa-4x fa-ellipsis fa-stack-1x fa-inverse"></i></div>
             </li>
         </ul>
+-->
     </div>
 </section>
 
