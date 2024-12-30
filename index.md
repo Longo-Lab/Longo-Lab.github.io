@@ -67,6 +67,24 @@ permalink: /
                 <p class="text-muted">These 5XFAD transgenic mice overexpress both mutant human amyloid beta (A4) precursor protein 695 (APP) with the Swedish (K670N, M671L), Florida (I716V), and London (V717I) Familial Alzheimer's Disease (FAD) mutations and human presenilin 1 (PS1) harboring two FAD mutations, M146L and L286V. Expression of both transgenes is regulated by neural-specific elements of the mouse Thy1 promoter to drive overexpression in the brain.</p>
             </div>
         </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-paw fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3">R6/2</h4>
+                <p class="text-muted">R6/2 (B6CBA-Tg(HDexon1)62Gpb/3J) mice are transgenic for the 5' end of the human HD gene carrying approximately 120 +/- 5 CAG repeat expansions (see Trinucleotide Scoring and Range below). The transgene is ubiquitously expressed.</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-paw fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3">zQ175</h4>
+                <p class="text-muted">The zQ175 knock-in (zQ175 KI) allele has the mouse Htt exon 1 replaced by the human HTT exon 1 sequence with a ~190 CAG repeat tract (see note below). These B6J.zQ175 KI mice (Stock No. 027410) are useful for studying Huntington's disease pathogenesis and for the assessment of potential therapeutic interventions.</p>
+            </div>
+        </div>
     </div>
 </section>
 
