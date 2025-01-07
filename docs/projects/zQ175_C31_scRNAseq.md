@@ -1,24 +1,24 @@
 ---
 layout: default
-title: T41B + C31 aged
+title: zQ175 + C31 scRNAseq
 parent: Projects
-nav_order: 9
+nav_order: 11
 ---
 
-# T41B + C31 aged
+# zQ175 + C31 scRNAseq
 {: .no_toc }
 
-[View on GitHub](https://github.com/Longo-Lab/T41B_C31_aged){: .btn .btn-primary }
-[Counts dashboard](https://longo-stanford.shinyapps.io/count_T41B_C31_aged/){: .btn .btn-secondary .disabled }
-[DE dashboard](https://longo-stanford.shinyapps.io/de_T41B_C31_aged/){: .btn .btn-secondary }
+[View on GitHub](#){: .btn .btn-primary .disabled }
+[Counts dashboard](https://longo-stanford.shinyapps.io/count_zQ175_C31_scRNAseq/){: .btn .btn-secondary }
+[DE dashboard](#){: .btn .btn-secondary .disabled }
 
 {: .info }
-> - **Model**: T41B
-> - **Age**: 4, 12, & 23 month
+> - **Model**: zQ175
+> - **Age**: ??12 month
 > - **Drug**: C31
-> - **Tissue**: Hippocampus
+> - **Tissue**: Cortex
 > - **Time since last dose**: 1h
-> - **RNA-seq type**: Bulk
+> - **RNA-seq type**: Single-cell
 
 #### Table of contents
 {: .no_toc .text-delta }

@@ -2,7 +2,7 @@
 layout: default
 title: R6/2 + C31 + stim
 parent: Projects
-nav_order: 5
+nav_order: 6
 ---
 
 # R6/2 + C31 + stim

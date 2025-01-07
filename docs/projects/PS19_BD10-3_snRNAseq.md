@@ -1,24 +1,24 @@
 ---
 layout: default
-title: T41B + C31 aged
+title: PS19 + BD10-3 snRNAseq
 parent: Projects
-nav_order: 9
+nav_order: 1
 ---
 
-# T41B + C31 aged
+# PS19 + BD10-3 snRNAseq
 {: .no_toc }
 
-[View on GitHub](https://github.com/Longo-Lab/T41B_C31_aged){: .btn .btn-primary }
-[Counts dashboard](https://longo-stanford.shinyapps.io/count_T41B_C31_aged/){: .btn .btn-secondary .disabled }
-[DE dashboard](https://longo-stanford.shinyapps.io/de_T41B_C31_aged/){: .btn .btn-secondary }
+[View on GitHub](#){: .btn .btn-primary .disabled }
+[Counts dashboard](https://longo-stanford.shinyapps.io/count_PS19_BD10-3_snRNAseq/){: .btn .btn-secondary }
+[DE dashboard](#){: .btn .btn-secondary .disabled }
 
 {: .info }
-> - **Model**: T41B
-> - **Age**: 4, 12, & 23 month
-> - **Drug**: C31
-> - **Tissue**: Hippocampus
+> - **Model**: PS19
+> - **Age**: 9 month
+> - **Drug**: BD10-3
+> - **Tissue**: Cortex
 > - **Time since last dose**: 1h
-> - **RNA-seq type**: Bulk
+> - **RNA-seq type**: Single-cell
 
 #### Table of contents
 {: .no_toc .text-delta }
