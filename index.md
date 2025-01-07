@@ -39,7 +39,7 @@ permalink: /
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Projects</h2>
-            <h3 class="section-subheading text-muted">Past and ongoing bioinformatic projects</h3>
+            <h3 class="section-subheading text-muted">At the Longo Lab we work on a range of projects in neurodegenerative disease and human-mouse translatable bioinformatic insights</h3>
             <a class="btn btn-primary btn-xl text-uppercase" href="https://med.stanford.edu/longo-lab/projects.html">Research Overview</a>
             <a class="btn btn-primary btn-xl text-uppercase" href="/docs/projects.html">Project Dashboards</a>
         </div>
@@ -47,7 +47,7 @@ permalink: /
 </section>
 
 <!-- Models-->
-<section class="page-section" id="models">
+<section class="page-section bg-light" id="models">
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Mice models</h2>
@@ -101,7 +101,7 @@ permalink: /
 </section>
 
 <!-- Compounds-->
-<section class="page-section bg-light" id="compounds">
+<section class="page-section" id="compounds">
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Drug compounds</h2>
