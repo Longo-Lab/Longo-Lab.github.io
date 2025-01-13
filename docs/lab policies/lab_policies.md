@@ -50,18 +50,18 @@ While cluster computing can be intimidating, SCG has made efforts to make this s
 
 ## Project Management
 
-One of the biggest challenges of lab work is maintaining organization! Even computational analyses can take months/years to fully implemnent, so taking on multiple projects side by side becomes essential. You also have multiple people coordinating with one another on a shared resource ([using GitHub](/docs/style_guide#maintaining-your-code-via-github)). It is important to document your progress, if not to keep track, then to show evidence of all of your hard work. Just like a lab notebook at the bench, you need a digital notebook.
+One of the biggest challenges of lab work is maintaining organization! Even computational analyses can take months/years to fully implement, so taking on multiple projects side by side becomes essential. You also have multiple people coordinating with one another on a shared resource ([using GitHub](/docs/style_guide#maintaining-your-code-via-github)). It is important to document your progress, if not to keep track, then to show evidence of all of your hard work. Just like a lab notebook at the bench, you need a digital notebook.
 
 {: .note-title }
 > Project organization via GitHub
 > 
 > If you didn't know, GitHub also has [projects](https://github.com/features#features-project-management)...
 
-It ends up being quite useful to manage projects in GitHub as you both fill your notebook, but also get some experience with kanban style agile frame works:
+It ends up being quite useful to manage projects in GitHub as you both fill your notebook, but also get some experience with kanban-style agile frameworks:
 
 <img src="/assets/images/git_kanban.png" style="border:1px solid #dfdfdf;border-radius:0.25rem;" />
 
-This allows for very precise notebooks were each project issue can have images & text. You can use markdown syntax, and create tables as needed to communicate why you did what you did, while your properly documented code evinces how you did it.
+This allows for very precise notebooks where each project issue can have images & text. You can use markdown syntax and create tables as needed to communicate why you did what you did. Your properly documented code in the repository side evinces how you did it.
 
 {: .info-title }
 > Setting up a project
@@ -82,7 +82,7 @@ One of the often short shrifted components of any paper is code documentation & 
 > 
 > All of those private project repos can be flipped to public when your paper comes out. Making it really easy to auto generate your paper's "code availablity" section
 
-But not you, you have been documenting things in GitHub Projects, and your code is backed up from SCG to the repository, so at the time of publication we can simply make that information public. That's it, in a few minutes most of your documentation is done. Keep in mind though that turning your project public means you commentary in the issues will now be public, so remember to keep it professional and constructive.
+But not you, you have been documenting things in GitHub Projects, and your code is backed up from SCG to the repository, so at the time of publication we can simply make that information public. That's it, in a few minutes most of your documentation is done. Keep in mind though that turning your project public means your commentary in the issues will now be public, so remember to keep it professional and constructive.
 
 ### Dashboards
 Beyond evidence of work, you can do one better and create some engaging dashboards to show anyone something useful, even on your phone! We have a few prebuilt dashboard templates to use for the most common type of work we do. They are implemented in Shiny apps.

@@ -7,11 +7,9 @@ has_toc: false
 permalink: /docs/tutorials
 ---
 
-# Under Construction...
+
+<img src="/assets/images/AAIC2023_MG.png" style="border:1px solid #dfdfdf;border-radius:0.25rem;" />
 
 # Tutorials
 
-[![](/assets/images/coming-soon.jpg)](https://pixabay.com/photos/coming-soon-chalk-board-blackboard-2550190/)
-{: .pub-img }
-
-
+Here are a few tutorials for understanding the project dashboards we produce (DE and Stimulation) and working on projects at the Longo Lab.
