@@ -27,7 +27,7 @@ permalink: /
 <!-- Masthead-->
 <header class="masthead">
     <div class="container">
-        <div class="masthead-subheading">Stanford Medicine</div>
+        <div class="masthead-subheading">Stanford School of Medicine</div>
         <div class="masthead-heading text-uppercase">Longo Lab Informatics</div>
         <a class="btn btn-primary btn-xl text-uppercase" href="/docs/docs.html">View the docs</a>
         <p>Photo by <a href="https://unsplash.com/photos/silhouette-of-building-Fqm17fwwf8k">Yu Wang</a> on <a href="https://unsplash.com/">Unsplash</a></p>

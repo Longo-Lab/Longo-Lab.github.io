@@ -8,9 +8,6 @@ permalink: /docs/style_guide
 code_folding: hide
 ---
 
-# Under Construction...
-{: .no_toc }
-
 # Style Guide 
 {: .no_toc }
 
@@ -314,10 +311,8 @@ When you make a commit, you can tie it to issues by mentioning their `issue #` i
 Having a plan and keeping track of it helps a great deal once you have multiple branches, multiple issues, multiple pull requests. See [Project Management](/docs/lab_policies#project-management)
 
 
-
-
 ## Etc
-
+For any additional issues that do arise, don't forget to ask for help! troubleshooting is the name of the game in bioinfomatics.
 
 
 
