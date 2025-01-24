@@ -32,7 +32,7 @@ nav_order: 8
 
 ## Publications
 
-[![](/assets/images/t41b_bd10-2_stim_fig.png)](https://doi.org/10.1101/2023.09.18.558138)
+[![](/assets/images/t41b_bd10-2_stim_fig.png)](https://doi.org/10.1002/alz.13857)
 {: .pub-img }
 
 A TrkB and TrkC partial agonist restores deficits in synaptic function and promotes activity-dependent synaptic and microglial transcriptomic changes in a late-stage Alzheimer's mouse model
@@ -42,10 +42,5 @@ _Alzheimer's & Dementia_ [20(7)4434-4460.](https://doi.org/10.1002/alz.13857)
 
 ## Methods
 
-More detail to come
+Code for analysis where available is in the github link above. Additional information regarding settings for trimming, mapping and differential expression are available on request.
 
-```r
-library(tidyverse)
-
-print('Hello, World!')
-```
