@@ -9,7 +9,7 @@ nav_order: 13
 {: .no_toc }
 
 [View on GitHub](https://github.com/Longo-Lab/Plasma_Ptau_Proteomics){: .btn .btn-primary }
-[![](/assets/images/wssmod_logo.png) WSSmod](https://github.com/Longo-Lab/WSSmod){: .btn .btn-secondary }
+[![](/assets/images/wssmod_logo.png) WSSmod](https://longo-lab.github.io/WSSmod){: .btn .btn-secondary }
 
 {: .info }
 > - **Cohort**: Stanford ADRC
