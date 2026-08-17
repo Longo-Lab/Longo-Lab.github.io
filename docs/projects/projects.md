@@ -11,8 +11,9 @@ permalink: /docs/projects
 
 Below is a list of projects containing RNA-seq data.
 
-| Model| Age | Drug | Treatment | Tissue | Time since<br>last dose	| RNA-seq<br>type | SCG folder<br>name | GitHub repo<br>name |
+| Model/Cohort| Age | Drug | Treatment | Tissue | Time since<br>last dose	| RNA-seq<br>type | SCG folder<br>name | GitHub repo<br>name |
 |---|---|---|---|---|---|---|---|---|
+| Stanford ADRC | N.A. | N.A. | N.A. | Plasma | N.A. | N.A. | N.A. | [Plasma_Ptau_Proteomics](https://github.com/Longo-Lab/Plasma_Ptau_Proteomics) |
 | PS19 | 9m | BD10-3 |  | Cortex | 1h | Single-cell | PS19_BD10-3_snRNAseq | [PS19_BD10-3_snRNAseq](https://github.com/Longo-Lab/PS19_BD10-3_snRNAseq) |
 | PS19 | 9m | C31 | LTP | Hippocampal | 24h | Bulk | PS19_C31_stim | [PS19_C31_stim](https://github.com/Longo-Lab/PS19_C31_stim) |
 | PS19 | 9m | C31 |  | Hippocampal | 1h | Bulk |  |  |
