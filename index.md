@@ -16,9 +16,10 @@ permalink: /
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                <li class="nav-item"><a class="nav-link" href="#models">Models</a></li>
-                <li class="nav-item"><a class="nav-link" href="#compounds">Compounds</a></li>
                 <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#compounds">Compounds</a></li>
+                <li class="nav-item"><a class="nav-link" href="#software">Software</a></li>
+                <li class="nav-item"><a class="nav-link" href="#models">Models</a></li>
             </ul>
         </div>
     </div>
@@ -42,6 +43,56 @@ permalink: /
             <h3 class="section-subheading text-muted">At the Longo Lab we work on a range of projects in neurodegenerative disease and human-mouse translatable bioinformatic insights</h3>
             <a class="btn btn-primary btn-xl text-uppercase" href="https://med.stanford.edu/longo-lab/projects.html">Research Overview</a>
             <a class="btn btn-primary btn-xl text-uppercase" href="/docs/projects.html">Project Dashboards</a>
+        </div>
+    </div>
+</section>
+
+<!-- Compounds-->
+<section class="page-section bg-light" id="compounds">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Drug compounds</h2>
+            <h3 class="section-subheading text-muted">Therapeutic compounds studied in the Longo Lab.</h3>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-secondary"></i>
+                    <i class="fas fa-syringe fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3"><a href="https://pubmed.ncbi.nlm.nih.gov/?term=lm11a-31">LM11A-C31 (C31)</a></h4>
+                <p class="text-muted">C31 targets p75 neurotrophin receptor.</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-secondary"></i>
+                    <i class="fas fa-syringe fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3"><a href="https://pubmed.ncbi.nlm.nih.gov/?term=ptx-bd10-2">PTX-BD10-2 (BD10-2)</a></h4>
+                <p class="text-muted">BD10-2 targets TRK neurotrophin receptors.</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-secondary"></i>
+                    <i class="fas fa-syringe fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3">PTX-BD10-3 (BD10-3)</h4>
+                <p class="text-muted">BD10-3 targets TRK neurotrophin receptors.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Software-->
+<section class="page-section" id="software">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Software</h2>
+            <h3 class="section-subheading text-muted">Open-source analysis tools developed in the Longo Lab.</h3>
+            <img src="/assets/images/wssmod_logo.png" alt="WSSmod logo" style="height: 100px;" class="mb-3" />
+            <h4 class="my-3">WSSmod</h4>
+            <p class="text-muted">An R package for computing weighted network module scores from plasma proteomics data.</p>
+            <a class="btn btn-primary btn-xl text-uppercase" href="https://longo-lab.github.io/WSSmod">View WSSmod</a>
         </div>
     </div>
 </section>
@@ -95,42 +146,6 @@ permalink: /
                 </span>
                 <h4 class="my-3">zQ175</h4>
                 <p class="text-muted">The zQ175 knock-in (zQ175 KI) allele has the mouse Htt exon 1 replaced by the human HTT exon 1 sequence with a ~190 CAG repeat tract (see note below). These B6J.zQ175 KI mice (Stock No. 027410) are useful for studying Huntington's disease pathogenesis and for the assessment of potential therapeutic interventions.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Compounds-->
-<section class="page-section" id="compounds">
-    <div class="container">
-        <div class="text-center">
-            <h2 class="section-heading text-uppercase">Drug compounds</h2>
-            <h3 class="section-subheading text-muted">Therapeutic compounds studied in the Longo Lab.</h3>
-        </div>
-        <div class="row text-center">
-            <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                    <i class="fas fa-circle fa-stack-2x text-secondary"></i>
-                    <i class="fas fa-syringe fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="my-3"><a href="https://pubmed.ncbi.nlm.nih.gov/?term=lm11a-31">LM11A-C31 (C31)</a></h4>
-                <p class="text-muted">C31 targets p75 neurotrophin receptor.</p>
-            </div>
-            <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                    <i class="fas fa-circle fa-stack-2x text-secondary"></i>
-                    <i class="fas fa-syringe fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="my-3"><a href="https://pubmed.ncbi.nlm.nih.gov/?term=ptx-bd10-2">PTX-BD10-2 (BD10-2)</a></h4>
-                <p class="text-muted">BD10-2 targets TRK neurotrophin receptors.</p>
-            </div>
-            <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                    <i class="fas fa-circle fa-stack-2x text-secondary"></i>
-                    <i class="fas fa-syringe fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="my-3">PTX-BD10-3 (BD10-3)</h4>
-                <p class="text-muted">BD10-3 targets TRK neurotrophin receptors.</p>
             </div>
         </div>
     </div>
