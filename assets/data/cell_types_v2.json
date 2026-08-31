@@ -1,0 +1,205 @@
+{
+  "name": "root",
+  "levels": [
+    "neighborhood",
+    "class"
+  ],
+  "size": 860,
+  "margin": 155,
+  "ramp": [
+    "#1f6f3f",
+    "#7e57a2",
+    "#c8952e",
+    "#2f7fa8",
+    "#3aa39a",
+    "#b1040e",
+    "#c8703e"
+  ],
+  "children": [
+    {
+      "name": "Pallium-Glut",
+      "full_name": "Pallium, glutamatergic",
+      "color": "#1f6f3f",
+      "children": [
+        {
+          "name": "01 IT-ET Glut",
+          "markers": "Slc17a7, Satb2, Herc6, C1ql3, Col26a1, Rorb"
+        },
+        {
+          "name": "02 NP-CT-L6b Glut",
+          "markers": "Cplx3, Nxph3, Satb2, Ankrd33b, Aox3, Calca"
+        },
+        {
+          "name": "03 OB-CR Glut",
+          "markers": "Cck, Eomes, Ndnf, Trp73"
+        },
+        {
+          "name": "04 DG-IMN Glut",
+          "markers": "C1ql3, Itpka, Mex3a, Neurod1, Prox1"
+        }
+      ]
+    },
+    {
+      "name": "Subpallium-GABA",
+      "full_name": "Subpallium, GABAergic",
+      "color": "#7e57a2",
+      "children": [
+        {
+          "name": "05 OB-IMN GABA",
+          "markers": "Frmd7, Zeb2, 2610307P16Rik, Apold1, Ctxn3, Dlx1"
+        },
+        {
+          "name": "06 CTX-CGE GABA",
+          "markers": "Ndnf, Cplx3, Dlx1as, Egln3, Gad2, Galnt18"
+        },
+        {
+          "name": "07 CTX-MGE GABA",
+          "markers": "Lhx6, Rbp4, Cryab, Mctp2, Pvalb, Reln"
+        },
+        {
+          "name": "08 CNU-MGE GABA",
+          "markers": "Lhx6, Lhx8, Chat, Gbx1, Gna14, Hhip"
+        },
+        {
+          "name": "09 CNU-LGE GABA",
+          "markers": "Adarb2, Adora2a, Alk, Chst9, Col23a1, Drd1"
+        },
+        {
+          "name": "10 LSX GABA",
+          "markers": "Prdm12, Slc32a1, Ano1, C130074G19Rik, Col6a3, Eya4"
+        },
+        {
+          "name": "11 CNU-HYa GABA",
+          "markers": "Six3, Lhx6, Meis2, Slc32a1, B130024G19Rik, Foxp2"
+        }
+      ]
+    },
+    {
+      "name": "HY-EA-Glut-GABA",
+      "full_name": "Hypothalamus & extended amygdala",
+      "color": "#c8952e",
+      "children": [
+        {
+          "name": "12 HY GABA",
+          "markers": "Dlx1, Six6, Slc32a1, Dlk1, Gad1, Gal"
+        },
+        {
+          "name": "13 CNU-HYa Glut",
+          "markers": "Kcnh3, Otp, AW551984, Adcyap1, Adgrd1, B130024G19Rik"
+        },
+        {
+          "name": "14 HY Glut",
+          "markers": "Slc17a6, Lmx1a, Otp, Bsx, Fezf1, Foxb1"
+        },
+        {
+          "name": "15 HY Gnrh1 Glut",
+          "markers": "Gnrh1"
+        },
+        {
+          "name": "16 HY MM Glut",
+          "markers": "Foxb1, Gpc6, Sall3, Tacstd2"
+        }
+      ]
+    },
+    {
+      "name": "TH-EPI-Glut",
+      "full_name": "Thalamus & epithalamus, glutamatergic",
+      "color": "#2f7fa8",
+      "children": [
+        {
+          "name": "17 MH-LH Glut",
+          "markers": "Ano1, Gng8, Pou4f1, Sox1ot"
+        },
+        {
+          "name": "18 TH Glut",
+          "markers": "Gbx2, Shox2, Bcl11b, C1ql2, Ctxn3, Edaradd"
+        }
+      ]
+    },
+    {
+      "name": "MB-HB-Glut-Sero-Dopa",
+      "full_name": "Midbrain & hindbrain, Glut/Sero/Dopa",
+      "color": "#3aa39a",
+      "children": [
+        {
+          "name": "19 MB Glut",
+          "markers": "Shox2, Bnc2, Barhl1, C1ql4, Tfap2b, Foxb1"
+        },
+        {
+          "name": "21 MB Dopa",
+          "markers": "Ntn1, Slc6a3"
+        },
+        {
+          "name": "22 MB-HB Sero",
+          "markers": "Gata3, Lmx1b"
+        },
+        {
+          "name": "23 P Glut",
+          "markers": "Ebf2, Lmx1b, Meis2, Nr2f1, Pax8, Phox2b"
+        },
+        {
+          "name": "24 MY Glut",
+          "markers": "Slc17a6, Hoxb6, Mafa, Hoxb5, Hoxc4, Lhx9"
+        },
+        {
+          "name": "25 Pineal Glut",
+          "markers": "Crx"
+        }
+      ]
+    },
+    {
+      "name": "MB-HB-CB-GABA",
+      "full_name": "Midbrain, hindbrain & cerebellum, GABAergic",
+      "color": "#b1040e",
+      "children": [
+        {
+          "name": "20 MB GABA",
+          "markers": "Gata3, Pax7, Lef1, Lingo2, Pax5, Cdh23"
+        },
+        {
+          "name": "26 P GABA",
+          "markers": "Otp, Gad1, Lhx1os, Pax2, Pax7, Slc6a5"
+        },
+        {
+          "name": "27 MY GABA",
+          "markers": "Slc6a5, Pax2, Dmbx1, Gbx2, Hoxa5, Adra1a"
+        },
+        {
+          "name": "28 CB GABA",
+          "markers": "Slc6a5, 4930523C07Rik, Bmp6, Cacna1e, Cacng2, Homer3"
+        }
+      ]
+    },
+    {
+      "name": "NN-IMN-GC",
+      "full_name": "Non-neuronal, immature neurons & granule cells",
+      "color": "#c8703e",
+      "children": [
+        {
+          "name": "29 CB Glut",
+          "markers": "Gabra6, Lmx1a, Ror1, Sln"
+        },
+        {
+          "name": "30 Astro-Epen",
+          "markers": "Dao, Gja1, Agt, Apoe, Aqp4, Cd38"
+        },
+        {
+          "name": "31 OPC-Oligo",
+          "markers": "Cldn11, Gjc3, Pdgfra"
+        },
+        {
+          "name": "32 OEC",
+          "markers": "Aqp1, Foxd3"
+        },
+        {
+          "name": "33 Vascular",
+          "markers": "Acta2, Apod, Kcnj8, Ly6c1, Slc47a1, Slc6a13"
+        },
+        {
+          "name": "34 Immune",
+          "markers": "C1qa, Cd52, Cd74, Gimap3, Maf, Mrc1"
+        }
+      ]
+    }
+  ]
+}

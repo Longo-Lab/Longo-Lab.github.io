@@ -9,52 +9,47 @@ $(document).ready(function() {
     });
     
     // Cell types
-    $.getJSON('/assets/data/cell_types.json', genCellTypes);
-    
+    // The page picks its taxonomy via data-src; v1.0 and v2.0 use different ones.
+    $.getJSON($('#plot').data('src') || '/assets/data/cell_types.json', genCellTypes);
+
     function genCellTypes(data) {
-      
-        var width = 700,
-            height = 700,
+
+        // Levels of the hierarchy below root, outermost last. The last one is
+        // drawn as radial leaf labels, the rest as arcs.
+        var levels = data.levels || ['class', 'neighborhood', 'subclass'],
+            leafDepth = levels.length;
+
+        // Canvas and the margin reserved for leaf labels. Taxonomies with
+        // longer labels need more of both; the svg scales to fit its column.
+        var width = data.size || 700,
+            height = width,
             cx = width * 0.5,
             cy = height * 0.5,
-            radius = Math.min(width, height) / 2 - 60;
-        
+            radius = Math.min(width, height) / 2 - (data.margin || 60);
+
         var lineGen = d3.lineRadial()
             .angle(function(d) { return d.x * Math.PI / 180; })
             .radius(function(d) { return d.y; });
-        
-        var numSubclasses = data.children.map(function(d) {
-            return d.children.map(function(c) { return c.children.length });
-        }).flat().reduce(function(a, b) { return a + b; }, 0);
-        
-        var neighborhoodColors = data.children.map(function(d) {
-            return d.children;
-        }).flat().reduce(function(obj, x) {
-            obj[x.name] = x.color;
-            return obj;
-        }, {});
-        
-        var colorGen = d3.scaleOrdinal(d3.quantize(d3.interpolateRgbBasis([
-            neighborhoodColors.Astro,
-            neighborhoodColors.Epend, 
-            neighborhoodColors.Immun,
-            neighborhoodColors.Oligo,
-            neighborhoodColors.OPC,
-            neighborhoodColors.Vascu,
-            neighborhoodColors.PT,
-            neighborhoodColors['NP/CT/L6b'],
-            neighborhoodColors['L4/5/6 IT Car3'],
-            neighborhoodColors['L2/3 IT'],
-            neighborhoodColors.MGE,
-            neighborhoodColors.CGE
-        ]), numSubclasses));
+
+        var numLeaves = d3.hierarchy(data).descendants().filter(function(d) {
+            return d.depth == leafDepth;
+        }).length;
+
+        // Leaf colours interpolate across the ramp; fall back to the inner
+        // nodes' own colours if a taxonomy doesn't define one.
+        var ramp = data.ramp || data.children.map(function(d) { return d.color; });
+
+        var colorGen = d3.scaleOrdinal(
+            d3.quantize(d3.interpolateRgbBasis(ramp), numLeaves)
+        );
         
         // Append to plot
         var svg = d3.select('#plot')
             .append('svg')
             .attr('width', width)
             .attr('height', height)
-            .attr('viewBox', [-cx, -cy, width, height]);
+            .attr('viewBox', [-cx, -cy, width, height])
+            .classed('depth-' + leafDepth, true);
             
         var g = svg.append('g')
             .attr('transform', 'rotate(45)');
@@ -112,8 +107,8 @@ $(document).ready(function() {
         var nodes = g.append('g')
             .classed('nodes', true);
             
-        nodes.selectAll('text')  // subclass level
-            .data(root.descendants().filter(function(d) { return d.depth == 3; }))
+        nodes.selectAll('text')  // outermost level
+            .data(root.descendants().filter(function(d) { return d.depth == leafDepth; }))
             .enter()
             .append('text')
             .attr('dy', '0.31em')
@@ -125,8 +120,8 @@ $(document).ready(function() {
             .on('mouseover', mouseovered(true))
             .on('mouseout', mouseovered(false));
             
-        var classes = nodes.selectAll('g')  // class + neighborhood levels
-            .data(root.descendants().filter(function(d) { return d.depth && d.depth < 3; }))
+        var classes = nodes.selectAll('g')  // inner levels
+            .data(root.descendants().filter(function(d) { return d.depth && d.depth < leafDepth; }))
             .enter()
             .append('g');
         
@@ -159,7 +154,7 @@ $(document).ready(function() {
                 // Display cell type info
                 d3.select('.info-box .cell-type').classed('hidden', !active);
                 d3.select('.info-box .name').text(d.data.full_name || d.data.name).attr('fill', d.data.color);
-                d3.select('.info-box .level').text(d.depth == 1 ? 'class' : (d.depth == 2 ? 'neighborhood' : 'subclass'));
+                d3.select('.info-box .level').text(levels[d.depth - 1]);
                 d3.select('.info-box .markers').text(d.data.markers);
                 
                 // Highlight selected cell type

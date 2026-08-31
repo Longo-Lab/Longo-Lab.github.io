@@ -1,5 +1,10 @@
 {
   "name": "root",
+  "levels": ["class", "neighborhood", "subclass"],
+  "ramp": [
+    "#c8a06e", "#d87d3e", "#a18faa", "#5a3b7e", "#cb8d77", "#995a38",
+    "#be3634", "#c07f7b", "#52954f", "#96b175", "#3d6d9c", "#abc7d5"
+  ],
   "children": [
     {
       "name": "Non-Neuronal",

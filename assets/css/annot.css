@@ -54,6 +54,16 @@
   font-style: italic;
 }
 
+#plot svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Two-level taxonomies put fewer, longer labels on the inner arcs. */
+.depth-2 .nodes > g text {
+  font-size: 9px;
+}
+
 .nodes text {
   font-size: 12px;
   paint-order: stroke;

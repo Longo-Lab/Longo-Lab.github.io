@@ -12,4 +12,4 @@ permalink: /docs/tutorials
 
 # Tutorials
 
-Here are a few tutorials for understanding the project dashboards we produce (DE and Stimulation) and working on projects at the Longo Lab.
+Here are a few tutorials for understanding the project dashboards we produce (DE and Stimulation), annotating cell types in our single-cell and single-nucleus data, and working on projects at the Longo Lab.
