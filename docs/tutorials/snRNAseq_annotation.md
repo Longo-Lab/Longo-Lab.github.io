@@ -8,6 +8,11 @@ nav_order: 3
 # snRNAseq annotation
 {: .no_toc }
 
+{: .warning-title }
+> Under construction
+>
+> This page is still being revised. Last update 8/31/2026.
+
 For our single-cell and single-nucleus RNA sequencing [projects](/docs/projects), we use an iterative clustering process to annotate cell types. This page walks through the current framework, which is built on the Allen Institute whole mouse brain atlas and MapMyCells predictions.
 
 {: .info-title }
