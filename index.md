@@ -90,9 +90,8 @@ permalink: /
             <h2 class="section-heading text-uppercase">Software</h2>
             <h3 class="section-subheading text-muted">Open-source analysis tools developed in the Longo Lab.</h3>
             <img src="/assets/images/wssmod_logo.png" alt="WSSmod logo" style="height: 100px;" class="mb-3" />
-            <h4 class="my-3">WSSmod</h4>
+            <h4 class="my-3"><a href="https://longo-lab.github.io/WSSmod">WSSmod</a></h4>
             <p class="text-muted">An R package for computing weighted network module scores from plasma proteomics data.</p>
-            <a class="btn btn-primary btn-xl text-uppercase" href="https://longo-lab.github.io/WSSmod">View WSSmod</a>
         </div>
     </div>
 </section>
