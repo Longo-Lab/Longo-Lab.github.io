@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64"><circle cx="32" cy="32" r="32" fill="#8C1515"/><g transform="translate(32,32) scale(0.7) translate(-32,-32)">
+    <path d="M4 64 Q4 46 16 42 L48 42 Q60 46 60 64 Z" fill="#620059"/>
+    <path d="M24 42 Q32 48 40 42 L40 46 Q32 51 24 46 Z" fill="#2E2D29" opacity="0.15"/>
+    <rect x="26" y="38" width="12" height="8" rx="3" fill="#766253"/>
+    <path d="M10 60 Q22 52 32 58 Q42 52 54 60 L54 66 L10 66 Z" fill="#620059" opacity="0.85"/>
+    <circle cx="14" cy="14" r="11" fill="#766253"/>
+    <circle cx="14" cy="14" r="6" fill="#DAD7CB"/>
+    <circle cx="50" cy="14" r="11" fill="#766253"/>
+    <circle cx="50" cy="14" r="6" fill="#DAD7CB"/>
+    <ellipse cx="32" cy="34" rx="22" ry="19" fill="#766253"/>
+    <ellipse cx="32" cy="42" rx="12" ry="8" fill="#F4F4F4"/>
+    
+        <path d="M20 30 Q24 33 28 30" stroke="#2E2D29" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+        <path d="M36 30 Q40 33 44 30" stroke="#2E2D29" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <ellipse cx="32" cy="39" rx="3" ry="2.2" fill="#2E2D29"/>
+    <path d="M32 41 Q32 46 27 47" stroke="#2E2D29" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <path d="M32 41 Q32 46 37 47" stroke="#2E2D29" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <path d="M12 40 L22 39" stroke="#2E2D29" stroke-width="1" opacity="0.45"/>
+    <path d="M12 45 L22 43" stroke="#2E2D29" stroke-width="1" opacity="0.45"/>
+    <path d="M52 40 L42 39" stroke="#2E2D29" stroke-width="1" opacity="0.45"/>
+    <path d="M52 45 L42 43" stroke="#2E2D29" stroke-width="1" opacity="0.45"/>
+    <rect x="29" y="45" width="3" height="4" fill="#fff" stroke="#d8d8d8" stroke-width="0.4"/>
+    <rect x="32" y="45" width="3" height="4" fill="#fff" stroke="#d8d8d8" stroke-width="0.4"/>
+    
+    <path d="M9 16 Q32 0 55 16 Q46 8 32 8 Q18 8 9 16 Z" fill="#350D36"/>
+    <ellipse cx="47" cy="17" rx="10" ry="4" fill="#350D36"/>
+    <path d="M26 55 L32 51 L38 55 L32 59 Z" fill="#FEC51D"/>
+    <circle cx="32" cy="55" r="2" fill="#D1660F"/>
+</g></svg>
