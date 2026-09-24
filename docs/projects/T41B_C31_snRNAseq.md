@@ -10,7 +10,7 @@ nav_order: 10
 
 [View on GitHub](#){: .btn .btn-primary .disabled }
 [Counts dashboard](https://longo-stanford.shinyapps.io/count_T41B_C31_snRNAseq/){: .btn .btn-secondary }
-[DE dashboard](#){: .btn .btn-secondary .disabled }
+[DE dashboard](https://longo-stanford.shinyapps.io/de_T41B_C31_snRNAseq){: .btn .btn-secondary .disabled }
 
 {: .info }
 > - **Model**: T41B
